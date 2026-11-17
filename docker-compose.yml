@@ -1,0 +1,12 @@
+services:
+  koz-pos:
+    build: .
+    container_name: koz_doner_pos
+    restart: always
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+      - PORT=3000
+    volumes:
+      - ./data.json:/app/data.json

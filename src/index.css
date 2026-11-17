@@ -1,0 +1,306 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Outfit", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+}
+
+/* Custom prints and receipt designs */
+.receipt-paper {
+  background: white;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+  position: relative;
+}
+
+.receipt-paper::after {
+  content: "";
+  position: absolute;
+  bottom: -8px;
+  left: 0;
+  right: 0;
+  height: 8px;
+  background-image: radial-gradient(circle, transparent, transparent 50%, white 50%, white);
+  background-size: 16px 16px;
+  background-position: bottom;
+}
+
+/* =======================================================
+   LIGHT MODE SYSTEM OVERRIDES
+   ======================================================= */
+html.light-mode, body.light-mode {
+  color-scheme: light;
+  background-color: #f8fafc !important; /* slate-50 */
+  color: #0f172a !important; /* slate-900 */
+}
+
+/* Backgrounds */
+html.light-mode .bg-slate-950 {
+  background-color: #f8fafc !important; /* slate-50 */
+}
+html.light-mode .bg-slate-950\/60,
+html.light-mode .bg-slate-950\/70,
+html.light-mode .bg-slate-950\/80,
+html.light-mode .bg-slate-950\/50,
+html.light-mode .bg-slate-950\/40 {
+  background-color: #f1f5f9 !important; /* slate-100 */
+}
+
+html.light-mode .bg-slate-900 {
+  background-color: #ffffff !important;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05), 0 1px 2px -1px rgba(0, 0, 0, 0.05);
+}
+
+html.light-mode .bg-slate-900\/50,
+html.light-mode .bg-slate-900\/60,
+html.light-mode .bg-slate-900\/80,
+html.light-mode .bg-slate-900\/90 {
+  background-color: #ffffff !important;
+}
+
+html.light-mode .bg-slate-850,
+html.light-mode .bg-slate-800 {
+  background-color: #f1f5f9 !important; /* slate-100 */
+}
+
+html.light-mode .bg-slate-750,
+html.light-mode .bg-slate-700 {
+  background-color: #e2e8f0 !important; /* slate-200 */
+}
+
+/* Borders */
+html.light-mode .border-slate-950,
+html.light-mode .border-slate-900,
+html.light-mode .border-slate-850,
+html.light-mode .border-slate-800,
+html.light-mode .border-slate-750,
+html.light-mode .border-slate-800\/80,
+html.light-mode .border-slate-800\/60,
+html.light-mode .border-slate-850\/40 {
+  border-color: #e2e8f0 !important; /* slate-200 */
+}
+
+/* Typography / Text colors */
+html.light-mode .text-white,
+html.light-mode .text-slate-100 {
+  color: #0f172a !important; /* slate-900 */
+}
+
+html.light-mode .text-slate-200,
+html.light-mode .text-slate-300 {
+  color: #1e293b !important; /* slate-800 */
+}
+
+html.light-mode .text-slate-400 {
+  color: #475569 !important; /* slate-600 */
+}
+
+html.light-mode .text-slate-500 {
+  color: #64748b !important; /* slate-500 */
+}
+
+html.light-mode .text-slate-600 {
+  color: #64748b !important; /* slate-500 */
+}
+
+/* Preserve bright white text inside filled colored buttons */
+html.light-mode button.bg-indigo-600,
+html.light-mode button.bg-indigo-500,
+html.light-mode button.bg-emerald-600,
+html.light-mode button.bg-emerald-500,
+html.light-mode button.bg-red-600,
+html.light-mode button.bg-red-500,
+html.light-mode button.bg-amber-600,
+html.light-mode button.bg-amber-500,
+html.light-mode button.bg-orange-600,
+html.light-mode button.bg-orange-500,
+html.light-mode button.bg-teal-600,
+html.light-mode button.bg-teal-500,
+html.light-mode .bg-indigo-600 .text-white,
+html.light-mode .bg-emerald-600 .text-white,
+html.light-mode .bg-red-600 .text-white,
+html.light-mode .bg-amber-600 .text-white,
+html.light-mode .bg-orange-600 .text-white,
+html.light-mode .bg-indigo-600 span,
+html.light-mode .bg-emerald-600 span,
+html.light-mode .bg-red-600 span,
+html.light-mode .bg-amber-600 span {
+  color: #ffffff !important;
+}
+
+/* Form inputs & selects */
+html.light-mode input,
+html.light-mode select,
+html.light-mode textarea {
+  background-color: #ffffff !important;
+  color: #0f172a !important;
+  border-color: #cbd5e1 !important;
+}
+
+html.light-mode input::placeholder,
+html.light-mode textarea::placeholder {
+  color: #94a3b8 !important;
+}
+
+html.light-mode input:focus,
+html.light-mode select:focus,
+html.light-mode textarea:focus {
+  border-color: #6366f1 !important;
+}
+
+/* Tables in Light Mode */
+html.light-mode table thead tr {
+  background-color: #f1f5f9 !important;
+}
+
+html.light-mode table tbody tr:hover {
+  background-color: #f8fafc !important;
+}
+
+/* Translucent accent badge text adjustments for WCAG contrast */
+html.light-mode .text-indigo-400 {
+  color: #4f46e5 !important;
+}
+
+html.light-mode .text-emerald-400 {
+  color: #059669 !important;
+}
+
+html.light-mode .text-red-400 {
+  color: #dc2626 !important;
+}
+
+html.light-mode .text-amber-400 {
+  color: #d97706 !important;
+}
+
+html.light-mode .text-orange-400 {
+  color: #ea580c !important;
+}
+
+html.light-mode .text-teal-400 {
+  color: #0d9488 !important;
+}
+
+/* Top Theme Toggle Button in Light Mode */
+html.light-mode #theme-toggle-top-btn {
+  background-color: #ffffff !important;
+  border-color: #cbd5e1 !important;
+  color: #4f46e5 !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08) !important;
+}
+
+html.light-mode #theme-toggle-top-btn:hover {
+  background-color: #f1f5f9 !important;
+  border-color: #94a3b8 !important;
+}
+
+/* Scrollbars in Light Mode */
+html.light-mode ::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+html.light-mode ::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+/* =======================================================
+   80MM POS THERMAL RECEIPT PRINT STYLES
+   ======================================================= */
+@media print {
+  @page {
+    size: 80mm auto;
+    margin: 0;
+  }
+  
+  *, *::before, *::after {
+    box-sizing: border-box !important;
+  }
+
+  html, body {
+    width: 80mm !important;
+    max-width: 80mm !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    background: #ffffff !important;
+    color: #000000 !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+    height: auto !important;
+    min-height: 0 !important;
+    max-height: max-content !important;
+    overflow: hidden !important;
+    page-break-after: avoid !important;
+    page-break-before: avoid !important;
+    page-break-inside: avoid !important;
+  }
+
+  #root {
+    width: 80mm !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    background: #ffffff !important;
+    height: auto !important;
+    min-height: 0 !important;
+    overflow: hidden !important;
+    page-break-after: avoid !important;
+    page-break-inside: avoid !important;
+  }
+
+  /* Hide all dashboard/tables/screen elements */
+  .pos-main-screen,
+  .print-hidden,
+  .print\:hidden {
+    display: none !important;
+    visibility: hidden !important;
+  }
+
+  .fixed.inset-0 {
+    position: static !important;
+    background: transparent !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    overflow: visible !important;
+    display: block !important;
+    height: auto !important;
+  }
+
+  .max-w-lg, .max-w-md, .rounded-2xl, .shadow-2xl {
+    max-width: 100% !important;
+    width: 100% !important;
+    border: none !important;
+    box-shadow: none !important;
+    border-radius: 0 !important;
+    background: transparent !important;
+    overflow: visible !important;
+  }
+
+  #thermal-print-wrapper {
+    display: block !important;
+    visibility: visible !important;
+    position: static !important;
+    width: 68mm !important;
+    max-width: 68mm !important;
+    margin: 0 !important;
+    padding: 1mm 2mm !important;
+    background: #ffffff !important;
+    color: #000000 !important;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Courier New", Courier, monospace !important;
+    page-break-inside: avoid !important;
+    page-break-after: avoid !important;
+    page-break-before: avoid !important;
+    break-inside: avoid !important;
+    break-after: avoid !important;
+    break-before: avoid !important;
+    height: auto !important;
+    overflow: hidden !important;
+  }
+
+  #thermal-print-wrapper * {
+    visibility: visible !important;
+    color: #000000 !important;
+  }
+}
+
+
+
+

@@ -1,0 +1,9 @@
+{
+  "name": "koz-doner-pos-server",
+  "version": "1.0.0",
+  "description": "Köz Xəzər Dönər POS - Server Production",
+  "main": "dist/server.cjs",
+  "scripts": {
+    "start": "NODE_ENV=production PORT=3001 node dist/server.cjs"
+  }
+}

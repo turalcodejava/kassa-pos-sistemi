@@ -1,0 +1,7702 @@
+{
+  "donerProducts": [
+    {
+      "id": "d1",
+      "name": "Toyuq Dönəri (Çörəkdə)",
+      "price": 2.5,
+      "category": "Dönər",
+      "business": "DONER",
+      "ingredients": [
+        "Toyuq əti",
+        "Pomidor",
+        "Xiyar",
+        "Mayonez",
+        "Kartof fri"
+      ],
+      "image": "https://images.unsplash.com/photo-1642686336061-12c8b5dfccb7?auto=format&fit=crop&q=80&w=600"
+    },
+    {
+      "id": "d2",
+      "name": "Toyuq Dönəri (Lavaşda) Tələbə",
+      "price": 2.5,
+      "category": "Dönər",
+      "business": "DONER",
+      "ingredients": [
+        "Toyuq əti",
+        "Pomidor",
+        "Xiyar",
+        "Mayonez",
+        "Kartof fri"
+      ],
+      "image": "https://images.unsplash.com/photo-1561651823-34fed022540e?auto=format&fit=crop&q=80&w=600"
+    },
+    {
+      "id": "d3",
+      "name": "Ət Dönəri (Çörəkdə)",
+      "price": 3,
+      "category": "Dönər",
+      "business": "DONER",
+      "ingredients": [
+        "Ət",
+        "Pomidor",
+        "Xiyar",
+        "Sous",
+        "Soğan"
+      ],
+      "image": "https://images.unsplash.com/photo-1529193591184-b1d58069ecdd?auto=format&fit=crop&q=80&w=600"
+    },
+    {
+      "id": "d4",
+      "name": "Ət Dönəri (Lavaşda)",
+      "price": 3.5,
+      "category": "Dönər",
+      "business": "DONER",
+      "ingredients": [
+        "Ət",
+        "Pomidor",
+        "Xiyar",
+        "Sous",
+        "Soğan"
+      ],
+      "image": "https://images.unsplash.com/photo-1626700051175-6518c4793f4f?auto=format&fit=crop&q=80&w=600"
+    },
+    {
+      "id": "d6",
+      "name": "Ayran 200ml",
+      "price": 1,
+      "category": "İçki",
+      "business": "DONER",
+      "stock": 44,
+      "totalReceived": 44,
+      "totalSold": 0,
+      "image": "https://images.unsplash.com/photo-1527018601619-a508a2be00cd?auto=format&fit=crop&q=80&w=600"
+    },
+    {
+      "id": "d7",
+      "name": "Coca-Cola 330ml",
+      "price": 1,
+      "category": "İçki",
+      "business": "DONER",
+      "stock": 128,
+      "totalReceived": 168,
+      "totalSold": 40,
+      "image": "https://images.unsplash.com/photo-1622483767028-3f66f32aef97?auto=format&fit=crop&q=80&w=600"
+    },
+    {
+      "id": "d8",
+      "name": "Fanta 330ml",
+      "price": 1,
+      "category": "İçki",
+      "business": "DONER",
+      "stock": 23,
+      "totalReceived": 24,
+      "totalSold": 1,
+      "image": "https://images.unsplash.com/photo-1624515699002-4713919e9f6c?auto=format&fit=crop&q=80&w=600"
+    },
+    {
+      "id": "d_1791786997912",
+      "name": "Toyuq Dönəri Çörəkdə Tələbə",
+      "price": 2,
+      "category": "Dönər",
+      "business": "DONER",
+      "ingredients": [],
+      "totalSold": 0,
+      "image": ""
+    },
+    {
+      "id": "d_1791787025457",
+      "name": "Ayran Süzmə",
+      "price": 0.5,
+      "category": "Dönər",
+      "business": "DONER",
+      "ingredients": [],
+      "totalSold": 0,
+      "image": ""
+    },
+    {
+      "id": "d_1791787095380",
+      "name": "Ayran Atena",
+      "price": 0.6,
+      "category": "Dönər",
+      "business": "DONER",
+      "ingredients": [],
+      "totalSold": 0,
+      "image": ""
+    },
+    {
+      "id": "d_1791787637205",
+      "name": "Fanta 500 ml",
+      "price": 1.5,
+      "category": "Dönər",
+      "business": "DONER",
+      "ingredients": [],
+      "stock": 24,
+      "totalReceived": 24,
+      "totalSold": 0,
+      "image": ""
+    },
+    {
+      "id": "d_1791787666499",
+      "name": "Basdırma Toyuq",
+      "price": 3,
+      "category": "Dönər",
+      "business": "DONER",
+      "ingredients": [],
+      "totalSold": 0,
+      "image": ""
+    },
+    {
+      "id": "d_1791788477212",
+      "name": "Şaurma Toyuq Çörəkdə",
+      "price": 3,
+      "category": "Dönər",
+      "business": "DONER",
+      "ingredients": [],
+      "totalSold": 0,
+      "image": ""
+    },
+    {
+      "id": "d_1791790054506",
+      "name": "Coca Cola 1L",
+      "price": 2,
+      "category": "İçki",
+      "business": "DONER",
+      "ingredients": [],
+      "stock": 21,
+      "totalReceived": 24,
+      "totalSold": 0,
+      "image": ""
+    },
+    {
+      "id": "d_1791793154850",
+      "name": "Ət Dönəri Böyük Çörəkdə",
+      "price": 4,
+      "category": "Dönər",
+      "business": "DONER",
+      "ingredients": [],
+      "totalSold": 0,
+      "image": ""
+    },
+    {
+      "id": "d_1791793365482",
+      "name": "Toyuq Dönəri Çörəkdə",
+      "price": 2.5,
+      "category": "Dönər",
+      "business": "DONER",
+      "ingredients": [],
+      "totalSold": 0,
+      "image": ""
+    },
+    {
+      "id": "d_1791795143999",
+      "name": "Şaurma Ət Çörəkdə",
+      "price": 4,
+      "category": "Dönər",
+      "business": "DONER",
+      "ingredients": [],
+      "totalSold": 0,
+      "image": ""
+    },
+    {
+      "id": "d_1791795166677",
+      "name": "Coca Cola 500ml",
+      "price": 1.5,
+      "category": "İçki",
+      "business": "DONER",
+      "ingredients": [],
+      "stock": 47,
+      "totalReceived": 48,
+      "totalSold": 1,
+      "image": ""
+    },
+    {
+      "id": "d_1791795275051",
+      "name": "Şaurma Toyuq Lavaşda",
+      "price": 3.5,
+      "category": "Dönər",
+      "business": "DONER",
+      "ingredients": [],
+      "totalSold": 0,
+      "image": ""
+    },
+    {
+      "id": "d_1791796278931",
+      "name": "Super menyu Toyuq",
+      "price": 5,
+      "category": "Dönər",
+      "business": "DONER",
+      "ingredients": [],
+      "totalSold": 0,
+      "image": ""
+    },
+    {
+      "id": "d_1791796945995",
+      "name": "Yoyuq Dönəri Böyük Çörəkdə",
+      "price": 3,
+      "category": "Dönər",
+      "business": "DONER",
+      "ingredients": [],
+      "totalSold": 0,
+      "image": ""
+    },
+    {
+      "id": "d_1791798736980",
+      "name": "Sprite 300ml",
+      "price": 1,
+      "category": "Dönər",
+      "business": "DONER",
+      "ingredients": [],
+      "stock": 24,
+      "totalReceived": 24,
+      "totalSold": 0,
+      "image": ""
+    },
+    {
+      "id": "d_1791798750511",
+      "name": "Sprite 500 ml",
+      "price": 1.5,
+      "category": "Dönər",
+      "business": "DONER",
+      "ingredients": [],
+      "stock": 12,
+      "totalReceived": 12,
+      "totalSold": 0,
+      "image": ""
+    },
+    {
+      "id": "d_1791799621538",
+      "name": "Şaurma Toyuq Lavaş",
+      "price": 3.5,
+      "category": "Dönər",
+      "business": "DONER",
+      "ingredients": [],
+      "totalSold": 0,
+      "image": ""
+    },
+    {
+      "id": "d_1791800057506",
+      "name": "Toyuq Dönəri Lavaşda",
+      "price": 3,
+      "category": "Dönər",
+      "business": "DONER",
+      "ingredients": [],
+      "totalSold": 0,
+      "image": ""
+    },
+    {
+      "id": "d_1791811214662",
+      "name": "Kartof fri",
+      "price": 3,
+      "category": "Dönər",
+      "business": "DONER",
+      "ingredients": [],
+      "totalSold": 0,
+      "image": ""
+    },
+    {
+      "id": "d_1791811231830",
+      "name": "Basdırma Ət",
+      "price": 4,
+      "category": "Dönər",
+      "business": "DONER",
+      "ingredients": [],
+      "totalSold": 0,
+      "image": ""
+    },
+    {
+      "id": "d_1791811337199",
+      "name": "Super Menyu Ət",
+      "price": 6,
+      "category": "Dönər",
+      "business": "DONER",
+      "ingredients": [],
+      "totalSold": 0,
+      "image": ""
+    },
+    {
+      "id": "d_1791812451915",
+      "name": "Dadlı Kombo Toyuq",
+      "price": 6,
+      "category": "Dönər",
+      "business": "DONER",
+      "ingredients": [],
+      "totalSold": 0,
+      "image": ""
+    },
+    {
+      "id": "d_1791820434146",
+      "name": "Şaurma Ət Lavaş",
+      "price": 4.5,
+      "category": "Dönər",
+      "business": "DONER",
+      "ingredients": [],
+      "totalSold": 0,
+      "image": ""
+    }
+  ],
+  "tables": [
+    {
+      "tableNumber": 1,
+      "tableName": "Masa 1",
+      "section": "Əsas Zal",
+      "status": "EMPTY",
+      "shape": "SQUARE",
+      "capacity": 4,
+      "guestCount": 0,
+      "posX": 14,
+      "posY": 18,
+      "items": [],
+      "subtotal": 0
+    },
+    {
+      "tableNumber": 2,
+      "tableName": "Masa 2",
+      "section": "Əsas Zal",
+      "status": "EMPTY",
+      "shape": "ROUND",
+      "capacity": 4,
+      "guestCount": 0,
+      "posX": 38,
+      "posY": 18,
+      "items": [],
+      "subtotal": 0
+    },
+    {
+      "tableNumber": 3,
+      "tableName": "Masa 3",
+      "section": "Əsas Zal",
+      "status": "EMPTY",
+      "shape": "RECTANGLE",
+      "capacity": 6,
+      "guestCount": 0,
+      "posX": 64,
+      "posY": 18,
+      "items": [],
+      "subtotal": 0
+    },
+    {
+      "tableNumber": 4,
+      "tableName": "Masa 4",
+      "section": "Əsas Zal",
+      "status": "EMPTY",
+      "shape": "SQUARE",
+      "capacity": 2,
+      "guestCount": 0,
+      "posX": 88,
+      "posY": 18,
+      "items": [],
+      "subtotal": 0
+    },
+    {
+      "tableNumber": 5,
+      "tableName": "Masa 5",
+      "section": "Əsas Zal",
+      "status": "EMPTY",
+      "shape": "ROUND",
+      "capacity": 4,
+      "guestCount": 0,
+      "posX": 14,
+      "posY": 52,
+      "items": [],
+      "subtotal": 0
+    },
+    {
+      "tableNumber": 6,
+      "tableName": "Masa 6",
+      "section": "Əsas Zal",
+      "status": "EMPTY",
+      "shape": "SQUARE",
+      "capacity": 4,
+      "guestCount": 0,
+      "posX": 38,
+      "posY": 52,
+      "items": [],
+      "subtotal": 0
+    },
+    {
+      "tableNumber": 7,
+      "tableName": "Masa 7",
+      "section": "Əsas Zal",
+      "status": "EMPTY",
+      "shape": "RECTANGLE",
+      "capacity": 8,
+      "guestCount": 0,
+      "posX": 64,
+      "posY": 52,
+      "items": [],
+      "subtotal": 0
+    }
+  ],
+  "donerOrders": [
+    {
+      "id": "ord_d_1791787046101",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791787025457",
+          "name": "Ayran Süzmə",
+          "price": 0.5,
+          "quantity": 1
+        },
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 2.5,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T06:37:26.101Z"
+    },
+    {
+      "id": "ord_d_1791787062095",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 2,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T06:37:42.095Z"
+    },
+    {
+      "id": "ord_d_1791787070006",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 2
+        }
+      ],
+      "subtotal": 4,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T06:37:50.006Z"
+    },
+    {
+      "id": "ord_d_1791787108628",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 1
+        },
+        {
+          "productId": "d_1791787095380",
+          "name": "Ayran Atena",
+          "price": 0.6,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 2.6,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T06:38:28.628Z"
+    },
+    {
+      "id": "ord_d_1791787184737",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 1
+        },
+        {
+          "productId": "d_1791787025457",
+          "name": "Ayran Süzmə",
+          "price": 0.5,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 2.5,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T06:39:44.737Z"
+    },
+    {
+      "id": "ord_d_1791787280593",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d1",
+          "name": "Toyuq Dönəri (Çörəkdə)",
+          "price": 2.5,
+          "quantity": 2
+        },
+        {
+          "productId": "d_1791787025457",
+          "name": "Ayran Süzmə",
+          "price": 0.5,
+          "quantity": 2
+        }
+      ],
+      "subtotal": 6,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T06:41:20.593Z"
+    },
+    {
+      "id": "ord_d_1791787581047",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 1
+        },
+        {
+          "productId": "d_1791787095380",
+          "name": "Ayran Atena",
+          "price": 0.6,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 2.6,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T06:46:21.047Z"
+    },
+    {
+      "id": "ord_d_1791787651869",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d2",
+          "name": "Toyuq Dönəri (Lavaşda) Tələbə",
+          "price": 2.5,
+          "quantity": 2
+        },
+        {
+          "productId": "d_1791787637205",
+          "name": "Fanta 500 ml",
+          "price": 1.5,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 6.5,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T06:47:31.870Z"
+    },
+    {
+      "id": "ord_d_1791787681029",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791787666499",
+          "name": "Basdırma Toyuq",
+          "price": 3,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 3,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T06:48:01.029Z"
+    },
+    {
+      "id": "ord_d_1791788488162",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791787025457",
+          "name": "Ayran Süzmə",
+          "price": 0.5,
+          "quantity": 1
+        },
+        {
+          "productId": "d_1791788477212",
+          "name": "Şaurma Toyuq Çörəkdə",
+          "price": 3,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 3.5,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T07:01:28.162Z"
+    },
+    {
+      "id": "ord_d_1791789902035",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d1",
+          "name": "Toyuq Dönəri (Çörəkdə)",
+          "price": 2.5,
+          "quantity": 1
+        },
+        {
+          "productId": "d3",
+          "name": "Ət Dönəri (Çörəkdə)",
+          "price": 3,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 5.5,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T07:25:02.035Z"
+    },
+    {
+      "id": "ord_d_1791790802532",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 2,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T07:40:02.532Z"
+    },
+    {
+      "id": "ord_d_1791790974560",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 2
+        },
+        {
+          "productId": "d_1791787025457",
+          "name": "Ayran Süzmə",
+          "price": 0.5,
+          "quantity": 1
+        },
+        {
+          "productId": "d7",
+          "name": "Coca-Cola 330ml",
+          "price": 1.5,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 6,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T07:42:54.560Z"
+    },
+    {
+      "id": "ord_d_1791791055718",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 3
+        },
+        {
+          "productId": "d_1791787095380",
+          "name": "Ayran Atena",
+          "price": 0.6,
+          "quantity": 3
+        }
+      ],
+      "subtotal": 7.8,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T07:44:15.718Z"
+    },
+    {
+      "id": "ord_d_1791791209951",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 1,
+          "removedIngredients": []
+        },
+        {
+          "productId": "d_1791787095380",
+          "name": "Ayran Atena",
+          "price": 0.6,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 2.6,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T07:46:49.951Z"
+    },
+    {
+      "id": "ord_d_1791791233250",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d3",
+          "name": "Ət Dönəri (Çörəkdə)",
+          "price": 3,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 3,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T07:47:13.250Z"
+    },
+    {
+      "id": "ord_d_1791791498631",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 1
+        },
+        {
+          "productId": "d_1791787025457",
+          "name": "Ayran Süzmə",
+          "price": 0.5,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 2.5,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T07:51:38.631Z"
+    },
+    {
+      "id": "ord_d_1791791632515",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791787095380",
+          "name": "Ayran Atena",
+          "price": 0.6,
+          "quantity": 1
+        },
+        {
+          "productId": "d_1791787666499",
+          "name": "Basdırma Toyuq",
+          "price": 3,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 3.6,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T07:53:52.515Z"
+    },
+    {
+      "id": "ord_d_1791791667642",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791787666499",
+          "name": "Basdırma Toyuq",
+          "price": 3,
+          "quantity": 1
+        },
+        {
+          "productId": "d_1791791656669",
+          "name": "Fanta 0.5",
+          "price": 1.5,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 4.5,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T07:54:27.642Z"
+    },
+    {
+      "id": "ord_d_1791791691942",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d2",
+          "name": "Toyuq Dönəri (Lavaşda) Tələbə",
+          "price": 2.5,
+          "quantity": 1
+        },
+        {
+          "productId": "d_1791787095380",
+          "name": "Ayran Atena",
+          "price": 0.6,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 3.1,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T07:54:51.942Z"
+    },
+    {
+      "id": "ord_d_1791792010220",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791787095380",
+          "name": "Ayran Atena",
+          "price": 0.6,
+          "quantity": 1
+        },
+        {
+          "productId": "d2",
+          "name": "Toyuq Dönəri (Lavaşda) Tələbə",
+          "price": 2.5,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 3.1,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T08:00:10.220Z"
+    },
+    {
+      "id": "ord_d_1791792413869",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 2
+        },
+        {
+          "productId": "d_1791787025457",
+          "name": "Ayran Süzmə",
+          "price": 0.5,
+          "quantity": 2
+        }
+      ],
+      "subtotal": 5,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T08:06:53.869Z"
+    },
+    {
+      "id": "ord_d_1791792624452",
+      "orderType": "TABLE",
+      "tableNumber": 4,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 5
+        },
+        {
+          "productId": "d_1791787095380",
+          "name": "Ayran Atena",
+          "price": 0.6,
+          "quantity": 5
+        }
+      ],
+      "subtotal": 13,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T08:10:24.452Z"
+    },
+    {
+      "id": "ord_d_1791793032459",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 2
+        },
+        {
+          "productId": "d_1791787025457",
+          "name": "Ayran Süzmə",
+          "price": 0.5,
+          "quantity": 2
+        }
+      ],
+      "subtotal": 5,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T08:17:12.459Z"
+    },
+    {
+      "id": "ord_d_1791793043388",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 2,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T08:17:23.388Z"
+    },
+    {
+      "id": "ord_d_1791793073098",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d3",
+          "name": "Ət Dönəri (Çörəkdə)",
+          "price": 3,
+          "quantity": 1
+        },
+        {
+          "productId": "d_1791787095380",
+          "name": "Ayran Atena",
+          "price": 0.6,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 3.6,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T08:17:53.098Z"
+    },
+    {
+      "id": "ord_d_1791793218039",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791793154850",
+          "name": "Ət Dönəri Böyük Çörəkdə",
+          "price": 4,
+          "quantity": 1
+        },
+        {
+          "productId": "d_1791787095380",
+          "name": "Ayran Atena",
+          "price": 0.6,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 4.6,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T08:20:18.039Z"
+    },
+    {
+      "id": "ord_d_1791793242876",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d3",
+          "name": "Ət Dönəri (Çörəkdə)",
+          "price": 3,
+          "quantity": 1
+        },
+        {
+          "productId": "d_1791787025457",
+          "name": "Ayran Süzmə",
+          "price": 0.5,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 3.5,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T08:20:42.876Z"
+    },
+    {
+      "id": "ord_d_1791793376248",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791793365482",
+          "name": "Toyuq Dönəri Çörəkdə",
+          "price": 2.5,
+          "quantity": 4
+        }
+      ],
+      "subtotal": 10,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T08:22:56.248Z"
+    },
+    {
+      "id": "ord_d_1791793495498",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 2,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T08:24:55.498Z"
+    },
+    {
+      "id": "ord_d_1791793664268",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 1
+        },
+        {
+          "productId": "d7",
+          "name": "Coca-Cola 330ml",
+          "price": 1,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 3,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T08:27:44.268Z"
+    },
+    {
+      "id": "ord_d_1791794249356",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 4
+        },
+        {
+          "productId": "d_1791787095380",
+          "name": "Ayran Atena",
+          "price": 0.6,
+          "quantity": 2
+        },
+        {
+          "productId": "d7",
+          "name": "Coca-Cola 330ml",
+          "price": 1,
+          "quantity": 1
+        },
+        {
+          "productId": "d_1791787637205",
+          "name": "Fanta 500 ml",
+          "price": 1.5,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 11.7,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T08:37:29.356Z"
+    },
+    {
+      "id": "ord_d_1791794268047",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 2,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T08:37:48.047Z"
+    },
+    {
+      "id": "ord_d_1791794704806",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791787666499",
+          "name": "Basdırma Toyuq",
+          "price": 3,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 3,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T08:45:04.806Z"
+    },
+    {
+      "id": "ord_d_1791794781975",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791787025457",
+          "name": "Ayran Süzmə",
+          "price": 0.5,
+          "quantity": 1
+        },
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 2
+        }
+      ],
+      "subtotal": 4.5,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T08:46:21.975Z"
+    },
+    {
+      "id": "ord_d_1791794817495",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 2
+        },
+        {
+          "productId": "d_1791787025457",
+          "name": "Ayran Süzmə",
+          "price": 0.5,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 4.5,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T08:46:57.495Z"
+    },
+    {
+      "id": "ord_d_1791794830028",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 1
+        },
+        {
+          "productId": "d_1791787025457",
+          "name": "Ayran Süzmə",
+          "price": 0.5,
+          "quantity": 2
+        }
+      ],
+      "subtotal": 3,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T08:47:10.028Z"
+    },
+    {
+      "id": "ord_d_1791795186568",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791795143999",
+          "name": "Şaurma Ət Çörəkdə",
+          "price": 4,
+          "quantity": 1
+        },
+        {
+          "productId": "d_1791795166677",
+          "name": "Coca Cola 500ml",
+          "price": 1.5,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 5.5,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T08:53:06.568Z"
+    },
+    {
+      "id": "ord_d_1791795293111",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791788477212",
+          "name": "Şaurma Toyuq Çörəkdə",
+          "price": 3,
+          "quantity": 1
+        },
+        {
+          "productId": "d_1791795275051",
+          "name": "Şaurma Toyuq Lavaşda",
+          "price": 3.5,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 6.5,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T08:54:53.111Z"
+    },
+    {
+      "id": "ord_d_1791795518243",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 1
+        },
+        {
+          "productId": "d_1791787095380",
+          "name": "Ayran Atena",
+          "price": 0.6,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 2.6,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T08:58:38.243Z"
+    },
+    {
+      "id": "ord_d_1791796252159",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 2
+        }
+      ],
+      "subtotal": 4,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T09:10:52.159Z"
+    },
+    {
+      "id": "ord_d_1791796292169",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791796278931",
+          "name": "Super menyu Toyuq",
+          "price": 5,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 5,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T09:11:32.169Z"
+    },
+    {
+      "id": "ord_d_1791796300901",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 2
+        }
+      ],
+      "subtotal": 4,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T09:11:40.901Z"
+    },
+    {
+      "id": "ord_d_1791796351522",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 2,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T09:12:31.522Z"
+    },
+    {
+      "id": "ord_d_1791796423141",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d4",
+          "name": "Ət Dönəri (Lavaşda)",
+          "price": 3.5,
+          "quantity": 1
+        },
+        {
+          "productId": "d_1791787095380",
+          "name": "Ayran Atena",
+          "price": 0.6,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 4.1,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T09:13:43.141Z"
+    },
+    {
+      "id": "ord_d_1791797014122",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791796945995",
+          "name": "Yoyuq Dönəri Böyük Çörəkdə",
+          "price": 3,
+          "quantity": 1
+        },
+        {
+          "productId": "d7",
+          "name": "Coca-Cola 330ml",
+          "price": 1,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 4,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T09:23:34.122Z"
+    },
+    {
+      "id": "ord_d_1791797171177",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 5
+        },
+        {
+          "productId": "d7",
+          "name": "Coca-Cola 330ml",
+          "price": 1,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 11,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T09:26:11.177Z"
+    },
+    {
+      "id": "ord_d_1791797177546",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 1
+        },
+        {
+          "productId": "d_1791787095380",
+          "name": "Ayran Atena",
+          "price": 0.6,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 2.6,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T09:26:17.546Z"
+    },
+    {
+      "id": "ord_d_1791797546297",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 1
+        },
+        {
+          "productId": "d3",
+          "name": "Ət Dönəri (Çörəkdə)",
+          "price": 3,
+          "quantity": 1
+        },
+        {
+          "productId": "d7",
+          "name": "Coca-Cola 330ml",
+          "price": 1,
+          "quantity": 2
+        }
+      ],
+      "subtotal": 7,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T09:32:26.297Z"
+    },
+    {
+      "id": "ord_d_1791797564156",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d3",
+          "name": "Ət Dönəri (Çörəkdə)",
+          "price": 3,
+          "quantity": 1
+        },
+        {
+          "productId": "d_1791787095380",
+          "name": "Ayran Atena",
+          "price": 0.6,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 3.6,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T09:32:44.156Z"
+    },
+    {
+      "id": "ord_d_1791797580072",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d3",
+          "name": "Ət Dönəri (Çörəkdə)",
+          "price": 3,
+          "quantity": 1
+        },
+        {
+          "productId": "d7",
+          "name": "Coca-Cola 330ml",
+          "price": 1,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 4,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T09:33:00.072Z"
+    },
+    {
+      "id": "ord_d_1791797591020",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d3",
+          "name": "Ət Dönəri (Çörəkdə)",
+          "price": 3,
+          "quantity": 1
+        },
+        {
+          "productId": "d_1791787095380",
+          "name": "Ayran Atena",
+          "price": 0.6,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 3.6,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T09:33:11.020Z"
+    },
+    {
+      "id": "ord_d_1791797640183",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791793365482",
+          "name": "Toyuq Dönəri Çörəkdə",
+          "price": 2.5,
+          "quantity": 2
+        },
+        {
+          "productId": "d_1791787095380",
+          "name": "Ayran Atena",
+          "price": 0.6,
+          "quantity": 2
+        }
+      ],
+      "subtotal": 6.2,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T09:34:00.183Z"
+    },
+    {
+      "id": "ord_d_1791797715370",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 1
+        },
+        {
+          "productId": "d_1791787095380",
+          "name": "Ayran Atena",
+          "price": 0.6,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 2.6,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T09:35:15.370Z"
+    },
+    {
+      "id": "ord_d_1791797805701",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 1
+        },
+        {
+          "productId": "d7",
+          "name": "Coca-Cola 330ml",
+          "price": 1,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 3,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T09:36:45.701Z"
+    },
+    {
+      "id": "ord_d_1791797815644",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 1
+        },
+        {
+          "productId": "d_1791787095380",
+          "name": "Ayran Atena",
+          "price": 0.6,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 2.6,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T09:36:55.644Z"
+    },
+    {
+      "id": "ord_d_1791797837067",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 1
+        },
+        {
+          "productId": "d_1791787095380",
+          "name": "Ayran Atena",
+          "price": 0.6,
+          "quantity": 2
+        }
+      ],
+      "subtotal": 3.2,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T09:37:17.067Z"
+    },
+    {
+      "id": "ord_d_1791797867005",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 1
+        },
+        {
+          "productId": "d3",
+          "name": "Ət Dönəri (Çörəkdə)",
+          "price": 3,
+          "quantity": 1
+        },
+        {
+          "productId": "d_1791787095380",
+          "name": "Ayran Atena",
+          "price": 0.6,
+          "quantity": 2
+        }
+      ],
+      "subtotal": 6.2,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T09:37:47.005Z"
+    },
+    {
+      "id": "ord_d_1791797894185",
+      "orderType": "TABLE",
+      "tableNumber": 3,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 1
+        },
+        {
+          "productId": "d_1791787095380",
+          "name": "Ayran Atena",
+          "price": 0.6,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 2.6,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T09:38:14.185Z"
+    },
+    {
+      "id": "ord_d_1791797911642",
+      "orderType": "TABLE",
+      "tableNumber": 3,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 2,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T09:38:31.642Z"
+    },
+    {
+      "id": "ord_d_1791798127273",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 6
+        },
+        {
+          "productId": "d_1791793365482",
+          "name": "Toyuq Dönəri Çörəkdə",
+          "price": 2.5,
+          "quantity": 1
+        },
+        {
+          "productId": "d_1791787095380",
+          "name": "Ayran Atena",
+          "price": 0.6,
+          "quantity": 2
+        }
+      ],
+      "subtotal": 15.7,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T09:42:07.273Z"
+    },
+    {
+      "id": "ord_d_1791798380279",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 1
+        },
+        {
+          "productId": "d_1791787025457",
+          "name": "Ayran Süzmə",
+          "price": 0.5,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 2.5,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T09:46:20.279Z"
+    },
+    {
+      "id": "ord_d_1791798586519",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d7",
+          "name": "Coca-Cola 330ml",
+          "price": 1,
+          "quantity": 3
+        }
+      ],
+      "subtotal": 3,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T09:49:46.519Z"
+    },
+    {
+      "id": "ord_d_1791799094015",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791793365482",
+          "name": "Toyuq Dönəri Çörəkdə",
+          "price": 2.5,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 2.5,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T09:58:14.015Z"
+    },
+    {
+      "id": "ord_d_1791799186736",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d3",
+          "name": "Ət Dönəri (Çörəkdə)",
+          "price": 3,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 3,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T09:59:46.736Z"
+    },
+    {
+      "id": "ord_d_1791799193450",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 2,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T09:59:53.450Z"
+    },
+    {
+      "id": "ord_d_1791799488391",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 2
+        }
+      ],
+      "subtotal": 4,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T10:04:48.391Z"
+    },
+    {
+      "id": "ord_d_1791799498156",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 2,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T10:04:58.156Z"
+    },
+    {
+      "id": "ord_d_1791799534514",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791787095380",
+          "name": "Ayran Atena",
+          "price": 0.6,
+          "quantity": 1
+        },
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 2.6,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T10:05:34.514Z"
+    },
+    {
+      "id": "ord_d_1791799689252",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 2
+        },
+        {
+          "productId": "d_1791787095380",
+          "name": "Ayran Atena",
+          "price": 0.6,
+          "quantity": 2
+        }
+      ],
+      "subtotal": 5.2,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T10:08:09.252Z"
+    },
+    {
+      "id": "ord_d_1791799912311",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791793365482",
+          "name": "Toyuq Dönəri Çörəkdə",
+          "price": 2.5,
+          "quantity": 1
+        },
+        {
+          "productId": "d_1791799621538",
+          "name": "Şaurma Toyuq Lavaş",
+          "price": 3.5,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 6,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T10:11:52.311Z"
+    },
+    {
+      "id": "ord_d_1791799929789",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d3",
+          "name": "Ət Dönəri (Çörəkdə)",
+          "price": 3,
+          "quantity": 1
+        },
+        {
+          "productId": "d7",
+          "name": "Coca-Cola 330ml",
+          "price": 1,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 4,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T10:12:09.789Z"
+    },
+    {
+      "id": "ord_d_1791800025276",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 2
+        },
+        {
+          "productId": "d_1791787095380",
+          "name": "Ayran Atena",
+          "price": 0.6,
+          "quantity": 4
+        }
+      ],
+      "subtotal": 6.4,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T10:13:45.276Z"
+    },
+    {
+      "id": "ord_d_1791800072665",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791800057506",
+          "name": "Toyuq Dönəri Lavaşda",
+          "price": 3,
+          "quantity": 5
+        }
+      ],
+      "subtotal": 15,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T10:14:32.665Z"
+    },
+    {
+      "id": "ord_d_1791800122669",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 2,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T10:15:22.669Z"
+    },
+    {
+      "id": "ord_d_1791800926518",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791787095380",
+          "name": "Ayran Atena",
+          "price": 0.6,
+          "quantity": 1
+        },
+        {
+          "productId": "d_1791787666499",
+          "name": "Basdırma Toyuq",
+          "price": 3,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 3.6,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T10:28:46.518Z"
+    },
+    {
+      "id": "ord_d_1791801746556",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d3",
+          "name": "Ət Dönəri (Çörəkdə)",
+          "price": 3,
+          "quantity": 2
+        }
+      ],
+      "subtotal": 6,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T10:42:26.556Z"
+    },
+    {
+      "id": "ord_d_1791801788178",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 2,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T10:43:08.178Z"
+    },
+    {
+      "id": "ord_d_1791802468906",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791796945995",
+          "name": "Yoyuq Dönəri Böyük Çörəkdə",
+          "price": 3,
+          "quantity": 2
+        },
+        {
+          "productId": "d_1791787095380",
+          "name": "Ayran Atena",
+          "price": 0.6,
+          "quantity": 1
+        },
+        {
+          "productId": "d_1791787025457",
+          "name": "Ayran Süzmə",
+          "price": 0.5,
+          "quantity": 1
+        },
+        {
+          "productId": "d_1791793365482",
+          "name": "Toyuq Dönəri Çörəkdə",
+          "price": 2.5,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 9.6,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T10:54:28.906Z"
+    },
+    {
+      "id": "ord_d_1791803316927",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 2
+        },
+        {
+          "productId": "d_1791787095380",
+          "name": "Ayran Atena",
+          "price": 0.6,
+          "quantity": 2
+        }
+      ],
+      "subtotal": 5.2,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T11:08:36.927Z"
+    },
+    {
+      "id": "ord_d_1791803331807",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791787025457",
+          "name": "Ayran Süzmə",
+          "price": 0.5,
+          "quantity": 1
+        },
+        {
+          "productId": "d3",
+          "name": "Ət Dönəri (Çörəkdə)",
+          "price": 3,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 3.5,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T11:08:51.807Z"
+    },
+    {
+      "id": "ord_d_1791803394973",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d3",
+          "name": "Ət Dönəri (Çörəkdə)",
+          "price": 3,
+          "quantity": 1
+        },
+        {
+          "productId": "d7",
+          "name": "Coca-Cola 330ml",
+          "price": 1,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 4,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T11:09:54.973Z"
+    },
+    {
+      "id": "ord_d_1791803534402",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 2,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T11:12:14.403Z"
+    },
+    {
+      "id": "ord_d_1791803607917",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 2,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T11:13:27.917Z"
+    },
+    {
+      "id": "ord_d_1791803717312",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 2,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T11:15:17.312Z"
+    },
+    {
+      "id": "ord_d_1791804687639",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791793365482",
+          "name": "Toyuq Dönəri Çörəkdə",
+          "price": 2.5,
+          "quantity": 2
+        },
+        {
+          "productId": "d7",
+          "name": "Coca-Cola 330ml",
+          "price": 1,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 6,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T11:31:27.639Z"
+    },
+    {
+      "id": "ord_d_1791804738333",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 2
+        }
+      ],
+      "subtotal": 4,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T11:32:18.333Z"
+    },
+    {
+      "id": "ord_d_1791805219790",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 2,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T11:40:19.790Z"
+    },
+    {
+      "id": "ord_d_1791805233618",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791787025457",
+          "name": "Ayran Süzmə",
+          "price": 0.5,
+          "quantity": 1
+        },
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 2.5,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T11:40:33.618Z"
+    },
+    {
+      "id": "ord_d_1791805252064",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791793365482",
+          "name": "Toyuq Dönəri Çörəkdə",
+          "price": 2.5,
+          "quantity": 1
+        },
+        {
+          "productId": "d_1791787025457",
+          "name": "Ayran Süzmə",
+          "price": 0.5,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 3,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T11:40:52.064Z"
+    },
+    {
+      "id": "ord_d_1791805258348",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 3
+        }
+      ],
+      "subtotal": 6,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T11:40:58.348Z"
+    },
+    {
+      "id": "ord_d_1791805267260",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 2,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T11:41:07.260Z"
+    },
+    {
+      "id": "ord_d_1791805402970",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791787025457",
+          "name": "Ayran Süzmə",
+          "price": 0.5,
+          "quantity": 1
+        },
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 2.5,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T11:43:22.971Z"
+    },
+    {
+      "id": "ord_d_1791805725196",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 1
+        },
+        {
+          "productId": "d_1791787025457",
+          "name": "Ayran Süzmə",
+          "price": 0.5,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 2.5,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T11:48:45.196Z"
+    },
+    {
+      "id": "ord_d_1791805743985",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 2
+        },
+        {
+          "productId": "d_1791787025457",
+          "name": "Ayran Süzmə",
+          "price": 0.5,
+          "quantity": 2
+        }
+      ],
+      "subtotal": 5,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T11:49:03.985Z"
+    },
+    {
+      "id": "ord_d_1791806911342",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 1
+        },
+        {
+          "productId": "d_1791787095380",
+          "name": "Ayran Atena",
+          "price": 0.6,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 2.6,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T12:08:31.342Z"
+    },
+    {
+      "id": "ord_d_1791806933359",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 1
+        },
+        {
+          "productId": "d_1791787095380",
+          "name": "Ayran Atena",
+          "price": 0.6,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 2.6,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T12:08:53.359Z"
+    },
+    {
+      "id": "ord_d_1791807000737",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 2,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T12:10:00.737Z"
+    },
+    {
+      "id": "ord_d_1791807012794",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 1
+        },
+        {
+          "productId": "d_1791787025457",
+          "name": "Ayran Süzmə",
+          "price": 0.5,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 2.5,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T12:10:12.794Z"
+    },
+    {
+      "id": "ord_d_1791807778977",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 2,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T12:22:58.977Z"
+    },
+    {
+      "id": "ord_d_1791807894309",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791793365482",
+          "name": "Toyuq Dönəri Çörəkdə",
+          "price": 2.5,
+          "quantity": 1
+        },
+        {
+          "productId": "d7",
+          "name": "Coca-Cola 330ml",
+          "price": 1,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 3.5,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T12:24:54.310Z"
+    },
+    {
+      "id": "ord_d_1791808018433",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 3
+        }
+      ],
+      "subtotal": 6,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T12:26:58.433Z"
+    },
+    {
+      "id": "ord_d_1791808292849",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791796945995",
+          "name": "Yoyuq Dönəri Böyük Çörəkdə",
+          "price": 3,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 3,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T12:31:32.849Z"
+    },
+    {
+      "id": "ord_d_1791808314738",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 2,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T12:31:54.738Z"
+    },
+    {
+      "id": "ord_d_1791808599045",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791788477212",
+          "name": "Şaurma Toyuq Çörəkdə",
+          "price": 3,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 3,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T12:36:39.045Z"
+    },
+    {
+      "id": "ord_d_1791808684795",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d3",
+          "name": "Ət Dönəri (Çörəkdə)",
+          "price": 3,
+          "quantity": 2
+        }
+      ],
+      "subtotal": 6,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T12:38:04.795Z"
+    },
+    {
+      "id": "ord_d_1791809501967",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791793365482",
+          "name": "Toyuq Dönəri Çörəkdə",
+          "price": 2.5,
+          "quantity": 1
+        },
+        {
+          "productId": "d_1791787025457",
+          "name": "Ayran Süzmə",
+          "price": 0.5,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 3,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T12:51:41.967Z"
+    },
+    {
+      "id": "ord_d_1791809581894",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791787666499",
+          "name": "Basdırma Toyuq",
+          "price": 3,
+          "quantity": 1
+        },
+        {
+          "productId": "d7",
+          "name": "Coca-Cola 330ml",
+          "price": 1,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 4,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T12:53:01.894Z"
+    },
+    {
+      "id": "ord_d_1791810057332",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 2,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T13:00:57.332Z"
+    },
+    {
+      "id": "ord_d_1791810167054",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 1
+        },
+        {
+          "productId": "d_1791787025457",
+          "name": "Ayran Süzmə",
+          "price": 0.5,
+          "quantity": 2
+        }
+      ],
+      "subtotal": 3,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T13:02:47.054Z"
+    },
+    {
+      "id": "ord_d_1791810210607",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 2
+        },
+        {
+          "productId": "d_1791787095380",
+          "name": "Ayran Atena",
+          "price": 0.6,
+          "quantity": 1
+        },
+        {
+          "productId": "d_1791787025457",
+          "name": "Ayran Süzmə",
+          "price": 0.5,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 5.1,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T13:03:30.607Z"
+    },
+    {
+      "id": "ord_d_1791810241555",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d3",
+          "name": "Ət Dönəri (Çörəkdə)",
+          "price": 3,
+          "quantity": 1
+        },
+        {
+          "productId": "d_1791787095380",
+          "name": "Ayran Atena",
+          "price": 0.6,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 3.6,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T13:04:01.555Z"
+    },
+    {
+      "id": "ord_d_1791810273385",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791788477212",
+          "name": "Şaurma Toyuq Çörəkdə",
+          "price": 3,
+          "quantity": 2
+        },
+        {
+          "productId": "d_1791787095380",
+          "name": "Ayran Atena",
+          "price": 0.6,
+          "quantity": 1
+        },
+        {
+          "productId": "d7",
+          "name": "Coca-Cola 330ml",
+          "price": 1,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 7.6,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T13:04:33.385Z"
+    },
+    {
+      "id": "ord_d_1791810365629",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d3",
+          "name": "Ət Dönəri (Çörəkdə)",
+          "price": 3,
+          "quantity": 1
+        },
+        {
+          "productId": "d_1791787095380",
+          "name": "Ayran Atena",
+          "price": 0.6,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 3.6,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T13:06:05.630Z"
+    },
+    {
+      "id": "ord_d_1791810608354",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 1
+        },
+        {
+          "productId": "d_1791787025457",
+          "name": "Ayran Süzmə",
+          "price": 0.5,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 2.5,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T13:10:08.354Z"
+    },
+    {
+      "id": "ord_d_1791811170032",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 2,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T13:19:30.032Z"
+    },
+    {
+      "id": "ord_d_1791811195091",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d3",
+          "name": "Ət Dönəri (Çörəkdə)",
+          "price": 3,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 3,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T13:19:55.091Z"
+    },
+    {
+      "id": "ord_d_1791811258581",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791811214662",
+          "name": "Kartof fri",
+          "price": 3,
+          "quantity": 1
+        },
+        {
+          "productId": "d_1791811231830",
+          "name": "Basdırma Ət",
+          "price": 4,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 7,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T13:20:58.581Z"
+    },
+    {
+      "id": "ord_d_1791811276369",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 2
+        },
+        {
+          "productId": "d7",
+          "name": "Coca-Cola 330ml",
+          "price": 1,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 5,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T13:21:16.369Z"
+    },
+    {
+      "id": "ord_d_1791811354731",
+      "orderType": "TABLE",
+      "tableNumber": 3,
+      "items": [
+        {
+          "productId": "d_1791811337199",
+          "name": "Super Menyu Ət",
+          "price": 6,
+          "quantity": 1
+        },
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 1
+        },
+        {
+          "productId": "d_1791787025457",
+          "name": "Ayran Süzmə",
+          "price": 0.5,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 8.5,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T13:22:34.731Z"
+    },
+    {
+      "id": "ord_d_1791811372829",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d3",
+          "name": "Ət Dönəri (Çörəkdə)",
+          "price": 3,
+          "quantity": 1
+        },
+        {
+          "productId": "d7",
+          "name": "Coca-Cola 330ml",
+          "price": 1,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 4,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T13:22:52.829Z"
+    },
+    {
+      "id": "ord_d_1791811441954",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791796278931",
+          "name": "Super menyu Toyuq",
+          "price": 5,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 5,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T13:24:01.954Z"
+    },
+    {
+      "id": "ord_d_1791811573174",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 2,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T13:26:13.174Z"
+    },
+    {
+      "id": "ord_d_1791812065542",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d7",
+          "name": "Coca-Cola 330ml",
+          "price": 1,
+          "quantity": 1
+        },
+        {
+          "productId": "d_1791793365482",
+          "name": "Toyuq Dönəri Çörəkdə",
+          "price": 2.5,
+          "quantity": 1
+        },
+        {
+          "productId": "d_1791800057506",
+          "name": "Toyuq Dönəri Lavaşda",
+          "price": 3,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 6.5,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T13:34:25.542Z"
+    },
+    {
+      "id": "ord_d_1791812463895",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791812451915",
+          "name": "Dadlı Kombo Toyuq",
+          "price": 6,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 6,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T13:41:03.895Z",
+      "notes": "Dəyişdirildi (Tural Hüseynli, 15:38:46)"
+    },
+    {
+      "id": "ord_d_1791812618060",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d3",
+          "name": "Ət Dönəri (Çörəkdə)",
+          "price": 3,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 3,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T13:43:38.060Z"
+    },
+    {
+      "id": "ord_d_1791813092954",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d3",
+          "name": "Ət Dönəri (Çörəkdə)",
+          "price": 3,
+          "quantity": 1
+        },
+        {
+          "productId": "d_1791795275051",
+          "name": "Şaurma Toyuq Lavaşda",
+          "price": 3.5,
+          "quantity": 1
+        },
+        {
+          "productId": "d_1791787095380",
+          "name": "Ayran Atena",
+          "price": 0.6,
+          "quantity": 2
+        }
+      ],
+      "subtotal": 7.7,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T13:51:32.954Z"
+    },
+    {
+      "id": "ord_d_1791813305146",
+      "orderType": "TABLE",
+      "tableNumber": 5,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 3
+        },
+        {
+          "productId": "d_1791787095380",
+          "name": "Ayran Atena",
+          "price": 0.6,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 6.6,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T13:55:05.147Z"
+    },
+    {
+      "id": "ord_d_1791813333974",
+      "orderType": "TABLE",
+      "tableNumber": 5,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 3
+        },
+        {
+          "productId": "d_1791787095380",
+          "name": "Ayran Atena",
+          "price": 0.6,
+          "quantity": 3
+        }
+      ],
+      "subtotal": 7.8,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T13:55:33.974Z"
+    },
+    {
+      "id": "ord_d_1791813503889",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 1
+        },
+        {
+          "productId": "d_1791796278931",
+          "name": "Super menyu Toyuq",
+          "price": 5,
+          "quantity": 1
+        },
+        {
+          "productId": "d_1791787095380",
+          "name": "Ayran Atena",
+          "price": 0.6,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 7.6,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T13:58:23.889Z"
+    },
+    {
+      "id": "ord_d_1791814057812",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791796945995",
+          "name": "Yoyuq Dönəri Böyük Çörəkdə",
+          "price": 3,
+          "quantity": 1
+        },
+        {
+          "productId": "d7",
+          "name": "Coca-Cola 330ml",
+          "price": 1,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 4,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T14:07:37.812Z"
+    },
+    {
+      "id": "ord_d_1791814068821",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791793365482",
+          "name": "Toyuq Dönəri Çörəkdə",
+          "price": 2.5,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 2.5,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T14:07:48.821Z"
+    },
+    {
+      "id": "ord_d_1791814170884",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 2
+        }
+      ],
+      "subtotal": 4,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T14:09:30.884Z"
+    },
+    {
+      "id": "ord_d_1791814579569",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d3",
+          "name": "Ət Dönəri (Çörəkdə)",
+          "price": 3,
+          "quantity": 1
+        },
+        {
+          "productId": "d_1791787095380",
+          "name": "Ayran Atena",
+          "price": 0.6,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 3.6,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T14:16:19.569Z"
+    },
+    {
+      "id": "ord_d_1791814761240",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791793154850",
+          "name": "Ət Dönəri Böyük Çörəkdə",
+          "price": 4,
+          "quantity": 2
+        },
+        {
+          "productId": "d_1791787025457",
+          "name": "Ayran Süzmə",
+          "price": 0.5,
+          "quantity": 2
+        }
+      ],
+      "subtotal": 9,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T14:19:21.240Z"
+    },
+    {
+      "id": "ord_d_1791814806956",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 1
+        },
+        {
+          "productId": "d_1791787095380",
+          "name": "Ayran Atena",
+          "price": 0.6,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 2.6,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T14:20:06.956Z"
+    },
+    {
+      "id": "ord_d_1791815012251",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 2,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T14:23:32.251Z"
+    },
+    {
+      "id": "ord_d_1791815755049",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d3",
+          "name": "Ət Dönəri (Çörəkdə)",
+          "price": 3,
+          "quantity": 3
+        },
+        {
+          "productId": "d_1791793365482",
+          "name": "Toyuq Dönəri Çörəkdə",
+          "price": 2.5,
+          "quantity": 2
+        },
+        {
+          "productId": "d7",
+          "name": "Coca-Cola 330ml",
+          "price": 1,
+          "quantity": 1
+        },
+        {
+          "productId": "d_1791798750511",
+          "name": "Sprite 500 ml",
+          "price": 1.5,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 16.5,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T14:35:55.049Z"
+    },
+    {
+      "id": "ord_d_1791816771640",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 1
+        },
+        {
+          "productId": "d7",
+          "name": "Coca-Cola 330ml",
+          "price": 1,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 3,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T14:52:51.640Z"
+    },
+    {
+      "id": "ord_d_1791816784230",
+      "orderType": "TABLE",
+      "tableNumber": 3,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 2
+        }
+      ],
+      "subtotal": 4,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T14:53:04.230Z"
+    },
+    {
+      "id": "ord_d_1791816802642",
+      "orderType": "TABLE",
+      "tableNumber": 3,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 2
+        },
+        {
+          "productId": "d_1791787095380",
+          "name": "Ayran Atena",
+          "price": 0.6,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 4.6,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T14:53:22.642Z"
+    },
+    {
+      "id": "ord_d_1791816815861",
+      "orderType": "TABLE",
+      "tableNumber": 3,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 2
+        }
+      ],
+      "subtotal": 4,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T14:53:35.861Z",
+      "notes": "Dəyişdirildi (Tural Hüseynli, 19:11:25)"
+    },
+    {
+      "id": "ord_d_1791816823773",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 1
+        },
+        {
+          "productId": "d_1791787095380",
+          "name": "Ayran Atena",
+          "price": 0.6,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 2.6,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T14:53:43.773Z"
+    },
+    {
+      "id": "ord_d_1791816834032",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 2
+        },
+        {
+          "productId": "d_1791787095380",
+          "name": "Ayran Atena",
+          "price": 0.6,
+          "quantity": 2
+        }
+      ],
+      "subtotal": 5.2,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T14:53:54.032Z"
+    },
+    {
+      "id": "ord_d_1791817170831",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791793365482",
+          "name": "Toyuq Dönəri Çörəkdə",
+          "price": 2.5,
+          "quantity": 1
+        },
+        {
+          "productId": "d7",
+          "name": "Coca-Cola 330ml",
+          "price": 1,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 3.5,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T14:59:30.831Z"
+    },
+    {
+      "id": "ord_d_1791817183208",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 3
+        },
+        {
+          "productId": "d_1791787095380",
+          "name": "Ayran Atena",
+          "price": 0.6,
+          "quantity": 3
+        }
+      ],
+      "subtotal": 7.8,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T14:59:43.208Z"
+    },
+    {
+      "id": "ord_d_1791817545034",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 2,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T15:05:45.034Z"
+    },
+    {
+      "id": "ord_d_1791817893319",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791788477212",
+          "name": "Şaurma Toyuq Çörəkdə",
+          "price": 3,
+          "quantity": 1
+        },
+        {
+          "productId": "d_1791795143999",
+          "name": "Şaurma Ət Çörəkdə",
+          "price": 4,
+          "quantity": 1
+        },
+        {
+          "productId": "d_1791787095380",
+          "name": "Ayran Atena",
+          "price": 0.6,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 7.6,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T15:11:33.319Z"
+    },
+    {
+      "id": "ord_d_1791818120851",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 2,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T15:15:20.851Z"
+    },
+    {
+      "id": "ord_d_1791818527156",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791812451915",
+          "name": "Dadlı Kombo Toyuq",
+          "price": 6,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 6,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T15:22:07.156Z"
+    },
+    {
+      "id": "ord_d_1791819132888",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791793365482",
+          "name": "Toyuq Dönəri Çörəkdə",
+          "price": 2.5,
+          "quantity": 1
+        },
+        {
+          "productId": "d7",
+          "name": "Coca-Cola 330ml",
+          "price": 1,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 3.5,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T15:32:12.888Z"
+    },
+    {
+      "id": "ord_d_1791819334003",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 2
+        },
+        {
+          "productId": "d3",
+          "name": "Ət Dönəri (Çörəkdə)",
+          "price": 3,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 7,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T15:35:34.003Z"
+    },
+    {
+      "id": "ord_d_1791819347767",
+      "orderType": "TABLE",
+      "tableNumber": 3,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 2,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T15:35:47.767Z"
+    },
+    {
+      "id": "ord_d_1791819359692",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d3",
+          "name": "Ət Dönəri (Çörəkdə)",
+          "price": 3,
+          "quantity": 3
+        }
+      ],
+      "subtotal": 9,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T15:35:59.692Z"
+    },
+    {
+      "id": "ord_d_1791819492306",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791793365482",
+          "name": "Toyuq Dönəri Çörəkdə",
+          "price": 2.5,
+          "quantity": 2
+        },
+        {
+          "productId": "d_1791787095380",
+          "name": "Ayran Atena",
+          "price": 0.6,
+          "quantity": 2
+        }
+      ],
+      "subtotal": 6.2,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T15:38:12.306Z"
+    },
+    {
+      "id": "ord_d_1791820263703",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d3",
+          "name": "Ət Dönəri (Çörəkdə)",
+          "price": 3,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 3,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T15:51:03.703Z"
+    },
+    {
+      "id": "ord_d_1791820471204",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d7",
+          "name": "Coca-Cola 330ml",
+          "price": 1,
+          "quantity": 1
+        },
+        {
+          "productId": "d_1791820434146",
+          "name": "Şaurma Ət Lavaş",
+          "price": 4.5,
+          "quantity": 2
+        },
+        {
+          "productId": "d_1791787637205",
+          "name": "Fanta 500 ml",
+          "price": 1.5,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 11.5,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T15:54:31.204Z"
+    },
+    {
+      "id": "ord_d_1791820541511",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 1
+        },
+        {
+          "productId": "d2",
+          "name": "Toyuq Dönəri (Lavaşda) Tələbə",
+          "price": 2.5,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 4.5,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T15:55:41.511Z"
+    },
+    {
+      "id": "ord_d_1791820992834",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791787095380",
+          "name": "Ayran Atena",
+          "price": 0.6,
+          "quantity": 1
+        },
+        {
+          "productId": "d_1791800057506",
+          "name": "Toyuq Dönəri Lavaşda",
+          "price": 3,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 3.6,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T16:03:12.835Z"
+    },
+    {
+      "id": "ord_d_1791821644886",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791793365482",
+          "name": "Toyuq Dönəri Çörəkdə",
+          "price": 2.5,
+          "quantity": 1
+        },
+        {
+          "productId": "d_1791800057506",
+          "name": "Toyuq Dönəri Lavaşda",
+          "price": 3,
+          "quantity": 1
+        },
+        {
+          "productId": "d7",
+          "name": "Coca-Cola 330ml",
+          "price": 1,
+          "quantity": 1
+        },
+        {
+          "productId": "d_1791787095380",
+          "name": "Ayran Atena",
+          "price": 0.6,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 7.1,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T16:14:04.886Z"
+    },
+    {
+      "id": "ord_d_1791821868154",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 1
+        },
+        {
+          "productId": "d_1791787095380",
+          "name": "Ayran Atena",
+          "price": 0.6,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 2.6,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T16:17:48.154Z"
+    },
+    {
+      "id": "ord_d_1791825422213",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 2
+        }
+      ],
+      "subtotal": 4,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T17:17:02.213Z"
+    },
+    {
+      "id": "ord_d_1791825441047",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 2
+        },
+        {
+          "productId": "d_1791791656669",
+          "name": "Fanta 0.5",
+          "price": 1.5,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 5.5,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T17:17:21.047Z"
+    },
+    {
+      "id": "ord_d_1791825450317",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 2,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T17:17:30.317Z"
+    },
+    {
+      "id": "ord_d_1791825475871",
+      "orderType": "TAKEAWAY",
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 2,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T17:17:55.871Z"
+    },
+    {
+      "id": "ord_d_1791825488584",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 2,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T17:18:08.584Z"
+    },
+    {
+      "id": "ord_d_1791826307777",
+      "orderType": "TAKEAWAY",
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 2
+        }
+      ],
+      "subtotal": 4,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T17:31:47.777Z"
+    },
+    {
+      "id": "ord_d_1791827366377",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d2",
+          "name": "Toyuq Dönəri (Lavaşda) Tələbə",
+          "price": 2.5,
+          "quantity": 1
+        },
+        {
+          "productId": "d7",
+          "name": "Coca-Cola 330ml",
+          "price": 1,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 3.5,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T17:49:26.377Z"
+    },
+    {
+      "id": "ord_d_1791829972594",
+      "orderType": "TAKEAWAY",
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 1
+        },
+        {
+          "productId": "d7",
+          "name": "Coca-Cola 330ml",
+          "price": 1,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 3,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T18:32:52.595Z"
+    },
+    {
+      "id": "ord_d_1791829997959",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 2,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-12T18:33:17.959Z"
+    },
+    {
+      "id": "ord_d_1791872808359",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 1
+        },
+        {
+          "productId": "d_1791787095380",
+          "name": "Ayran Atena",
+          "price": 0.6,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 2.6,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-13T06:26:48.359Z"
+    },
+    {
+      "id": "ord_d_1791873358898",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791793365482",
+          "name": "Toyuq Dönəri Çörəkdə",
+          "price": 2.5,
+          "quantity": 2
+        },
+        {
+          "productId": "d_1791787095380",
+          "name": "Ayran Atena",
+          "price": 0.6,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 5.6,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-13T06:35:58.898Z"
+    },
+    {
+      "id": "ord_d_1791873540725",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 1
+        },
+        {
+          "productId": "d_1791787095380",
+          "name": "Ayran Atena",
+          "price": 0.6,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 2.6,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-13T06:39:00.726Z"
+    },
+    {
+      "id": "ord_d_1791873656061",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 3
+        },
+        {
+          "productId": "d_1791787095380",
+          "name": "Ayran Atena",
+          "price": 0.6,
+          "quantity": 2
+        }
+      ],
+      "subtotal": 7.2,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-13T06:40:56.061Z"
+    },
+    {
+      "id": "ord_d_1791874242986",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 2,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-13T06:50:42.986Z"
+    },
+    {
+      "id": "ord_d_1791876204863",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 1
+        },
+        {
+          "productId": "d_1791787095380",
+          "name": "Ayran Atena",
+          "price": 0.6,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 2.6,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-13T07:23:24.863Z"
+    },
+    {
+      "id": "ord_d_1791876283952",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 3
+        },
+        {
+          "productId": "d_1791787025457",
+          "name": "Ayran Süzmə",
+          "price": 0.5,
+          "quantity": 3
+        }
+      ],
+      "subtotal": 7.5,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-13T07:24:43.953Z"
+    },
+    {
+      "id": "ord_d_1791876686727",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 1
+        },
+        {
+          "productId": "d7",
+          "name": "Coca-Cola 330ml",
+          "price": 1,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 3,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-13T07:31:26.727Z"
+    },
+    {
+      "id": "ord_d_1791876693973",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 2,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-13T07:31:33.973Z"
+    },
+    {
+      "id": "ord_d_1791876870412",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791787666499",
+          "name": "Basdırma Toyuq",
+          "price": 3,
+          "quantity": 1
+        },
+        {
+          "productId": "d_1791787095380",
+          "name": "Ayran Atena",
+          "price": 0.6,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 3.6,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-13T07:34:30.413Z"
+    },
+    {
+      "id": "ord_d_1791876898323",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 2,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-13T07:34:58.323Z"
+    },
+    {
+      "id": "ord_d_1791876907433",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791787095380",
+          "name": "Ayran Atena",
+          "price": 0.6,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 0.6,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-13T07:35:07.433Z"
+    },
+    {
+      "id": "ord_d_1791877406836",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d2",
+          "name": "Toyuq Dönəri (Lavaşda) Tələbə",
+          "price": 2.5,
+          "quantity": 1
+        },
+        {
+          "productId": "d_1791787025457",
+          "name": "Ayran Süzmə",
+          "price": 0.5,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 3,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-13T07:43:26.836Z"
+    },
+    {
+      "id": "ord_d_1791877413462",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 2,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-13T07:43:33.462Z"
+    },
+    {
+      "id": "ord_d_1791877469708",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d7",
+          "name": "Coca-Cola 330ml",
+          "price": 1,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 1,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-13T07:44:29.708Z"
+    },
+    {
+      "id": "ord_d_1791877684400",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 2
+        }
+      ],
+      "subtotal": 4,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-13T07:48:04.400Z"
+    },
+    {
+      "id": "ord_d_1791877894490",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 2
+        },
+        {
+          "productId": "d_1791787095380",
+          "name": "Ayran Atena",
+          "price": 0.6,
+          "quantity": 2
+        }
+      ],
+      "subtotal": 5.2,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-13T07:51:34.490Z"
+    },
+    {
+      "id": "ord_d_1791877963061",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 2
+        },
+        {
+          "productId": "d_1791795275051",
+          "name": "Şaurma Toyuq Lavaşda",
+          "price": 3.5,
+          "quantity": 1
+        },
+        {
+          "productId": "d_1791787095380",
+          "name": "Ayran Atena",
+          "price": 0.6,
+          "quantity": 2
+        },
+        {
+          "productId": "d7",
+          "name": "Coca-Cola 330ml",
+          "price": 1,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 9.7,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-13T07:52:43.061Z"
+    },
+    {
+      "id": "ord_d_1791878038333",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d7",
+          "name": "Coca-Cola 330ml",
+          "price": 1,
+          "quantity": 2
+        },
+        {
+          "productId": "d_1791788477212",
+          "name": "Şaurma Toyuq Çörəkdə",
+          "price": 3,
+          "quantity": 1
+        },
+        {
+          "productId": "d_1791795143999",
+          "name": "Şaurma Ət Çörəkdə",
+          "price": 4,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 9,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-13T07:53:58.333Z"
+    },
+    {
+      "id": "ord_d_1791878059822",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791793154850",
+          "name": "Ət Dönəri Böyük Çörəkdə",
+          "price": 4,
+          "quantity": 1
+        },
+        {
+          "productId": "d7",
+          "name": "Coca-Cola 330ml",
+          "price": 1,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 5,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-13T07:54:19.822Z"
+    },
+    {
+      "id": "ord_d_1791878077636",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 2
+        },
+        {
+          "productId": "d_1791787095380",
+          "name": "Ayran Atena",
+          "price": 0.6,
+          "quantity": 2
+        }
+      ],
+      "subtotal": 5.2,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-13T07:54:37.636Z"
+    },
+    {
+      "id": "ord_d_1791878097430",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d3",
+          "name": "Ət Dönəri (Çörəkdə)",
+          "price": 3,
+          "quantity": 1
+        },
+        {
+          "productId": "d7",
+          "name": "Coca-Cola 330ml",
+          "price": 1,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 4,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-13T07:54:57.430Z"
+    },
+    {
+      "id": "ord_d_1791878220716",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 1
+        },
+        {
+          "productId": "d_1791787095380",
+          "name": "Ayran Atena",
+          "price": 0.6,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 2.6,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-13T07:57:00.716Z"
+    },
+    {
+      "id": "ord_d_1791879087903",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791787666499",
+          "name": "Basdırma Toyuq",
+          "price": 3,
+          "quantity": 1
+        },
+        {
+          "productId": "d_1791787095380",
+          "name": "Ayran Atena",
+          "price": 0.6,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 3.6,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-13T08:11:27.903Z"
+    },
+    {
+      "id": "ord_d_1791879102283",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791787095380",
+          "name": "Ayran Atena",
+          "price": 0.6,
+          "quantity": 1
+        },
+        {
+          "productId": "d_1791787666499",
+          "name": "Basdırma Toyuq",
+          "price": 3,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 3.6,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-13T08:11:42.283Z"
+    },
+    {
+      "id": "ord_d_1791879128774",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 1
+        },
+        {
+          "productId": "d_1791787666499",
+          "name": "Basdırma Toyuq",
+          "price": 3,
+          "quantity": 1
+        },
+        {
+          "productId": "d_1791787095380",
+          "name": "Ayran Atena",
+          "price": 0.6,
+          "quantity": 2
+        }
+      ],
+      "subtotal": 6.2,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-13T08:12:08.774Z"
+    },
+    {
+      "id": "ord_d_1791879148043",
+      "orderType": "TABLE",
+      "tableNumber": 3,
+      "items": [
+        {
+          "productId": "d_1791787095380",
+          "name": "Ayran Atena",
+          "price": 0.6,
+          "quantity": 1
+        },
+        {
+          "productId": "d_1791787666499",
+          "name": "Basdırma Toyuq",
+          "price": 3,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 3.6,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-13T08:12:28.043Z"
+    },
+    {
+      "id": "ord_d_1791879184214",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791787095380",
+          "name": "Ayran Atena",
+          "price": 0.6,
+          "quantity": 1
+        },
+        {
+          "productId": "d_1791787666499",
+          "name": "Basdırma Toyuq",
+          "price": 3,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 3.6,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-13T08:13:04.214Z"
+    },
+    {
+      "id": "ord_d_1791879315139",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 1
+        },
+        {
+          "productId": "d_1791787095380",
+          "name": "Ayran Atena",
+          "price": 0.6,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 2.6,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-13T08:15:15.139Z"
+    },
+    {
+      "id": "ord_d_1791880478446",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 2
+        },
+        {
+          "productId": "d_1791787095380",
+          "name": "Ayran Atena",
+          "price": 0.6,
+          "quantity": 2
+        }
+      ],
+      "subtotal": 5.2,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-13T08:34:38.446Z"
+    },
+    {
+      "id": "ord_d_1791880767053",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 2,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-13T08:39:27.053Z"
+    },
+    {
+      "id": "ord_d_1791880955114",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 2,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-13T08:42:35.114Z"
+    },
+    {
+      "id": "ord_d_1791880978903",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791787095380",
+          "name": "Ayran Atena",
+          "price": 0.6,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 0.6,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-13T08:42:58.903Z",
+      "notes": "Dəyişdirildi (Tural Hüseynli, 18:59:26) | Dəyişdirildi (Tural Hüseynli, 19:00:25)"
+    },
+    {
+      "id": "ord_d_1791882141756",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d8",
+          "name": "Fanta 330ml",
+          "price": 1,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 1,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-13T09:02:21.756Z"
+    },
+    {
+      "id": "ord_d_1791882219432",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 1
+        },
+        {
+          "productId": "d_1791787095380",
+          "name": "Ayran Atena",
+          "price": 0.6,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 2.6,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-13T09:03:39.432Z"
+    },
+    {
+      "id": "ord_d_1791882526591",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 2,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-13T09:08:46.591Z"
+    },
+    {
+      "id": "ord_d_1791882587818",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 2,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-13T09:09:47.818Z"
+    },
+    {
+      "id": "ord_d_1791882768418",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 1
+        },
+        {
+          "productId": "d_1791787095380",
+          "name": "Ayran Atena",
+          "price": 0.6,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 2.6,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-13T09:12:48.418Z"
+    },
+    {
+      "id": "ord_d_1791882912427",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d3",
+          "name": "Ət Dönəri (Çörəkdə)",
+          "price": 3,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 3,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-13T09:15:12.427Z"
+    },
+    {
+      "id": "ord_d_1791883078334",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d2",
+          "name": "Toyuq Dönəri (Lavaşda) Tələbə",
+          "price": 2.5,
+          "quantity": 1
+        },
+        {
+          "productId": "d_1791787095380",
+          "name": "Ayran Atena",
+          "price": 0.6,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 3.1,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-13T09:17:58.334Z",
+      "notes": "Dəyişdirildi (Tural Hüseynli, 18:59:16) | Dəyişdirildi (Tural Hüseynli, 19:00:00)"
+    },
+    {
+      "id": "ord_d_1791883116442",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d2",
+          "name": "Toyuq Dönəri (Lavaşda) Tələbə",
+          "price": 2.5,
+          "quantity": 1
+        },
+        {
+          "productId": "d_1791787095380",
+          "name": "Ayran Atena",
+          "price": 0.6,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 3.1,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-13T09:18:36.442Z"
+    },
+    {
+      "id": "ord_d_1791883142785",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 1
+        },
+        {
+          "productId": "d_1791787095380",
+          "name": "Ayran Atena",
+          "price": 0.6,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 2.6,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-13T09:19:02.785Z"
+    },
+    {
+      "id": "ord_d_1791883171590",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791787095380",
+          "name": "Ayran Atena",
+          "price": 0.6,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 0.6,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-13T09:19:31.590Z"
+    },
+    {
+      "id": "ord_d_1791884318576",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791787095380",
+          "name": "Ayran Atena",
+          "price": 0.6,
+          "quantity": 1
+        },
+        {
+          "productId": "d_1791788477212",
+          "name": "Şaurma Toyuq Çörəkdə",
+          "price": 3,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 3.6,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-13T09:38:38.577Z"
+    },
+    {
+      "id": "ord_d_1791884326917",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d3",
+          "name": "Ət Dönəri (Çörəkdə)",
+          "price": 3,
+          "quantity": 1
+        },
+        {
+          "productId": "d_1791787025457",
+          "name": "Ayran Süzmə",
+          "price": 0.5,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 3.5,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-13T09:38:46.917Z"
+    },
+    {
+      "id": "ord_d_1791884346727",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791787666499",
+          "name": "Basdırma Toyuq",
+          "price": 3,
+          "quantity": 1
+        },
+        {
+          "productId": "d_1791787095380",
+          "name": "Ayran Atena",
+          "price": 0.6,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 3.6,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-13T09:39:06.727Z"
+    },
+    {
+      "id": "ord_d_1791884353755",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 2
+        },
+        {
+          "productId": "d_1791787095380",
+          "name": "Ayran Atena",
+          "price": 0.6,
+          "quantity": 2
+        }
+      ],
+      "subtotal": 5.2,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-13T09:39:13.755Z"
+    },
+    {
+      "id": "ord_d_1791884362829",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d2",
+          "name": "Toyuq Dönəri (Lavaşda) Tələbə",
+          "price": 2.5,
+          "quantity": 1
+        },
+        {
+          "productId": "d_1791787095380",
+          "name": "Ayran Atena",
+          "price": 0.6,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 3.1,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-13T09:39:22.829Z"
+    },
+    {
+      "id": "ord_d_1791884375137",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 1
+        },
+        {
+          "productId": "d_1791787095380",
+          "name": "Ayran Atena",
+          "price": 0.6,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 2.6,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-13T09:39:35.137Z"
+    },
+    {
+      "id": "ord_d_1791884382108",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 1
+        },
+        {
+          "productId": "d_1791787095380",
+          "name": "Ayran Atena",
+          "price": 0.6,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 2.6,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-13T09:39:42.108Z"
+    },
+    {
+      "id": "ord_d_1791884406046",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 3
+        },
+        {
+          "productId": "d_1791787095380",
+          "name": "Ayran Atena",
+          "price": 0.6,
+          "quantity": 3
+        },
+        {
+          "productId": "d_1791788477212",
+          "name": "Şaurma Toyuq Çörəkdə",
+          "price": 3,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 10.8,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-13T09:40:06.046Z"
+    },
+    {
+      "id": "ord_d_1791884435338",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d3",
+          "name": "Ət Dönəri (Çörəkdə)",
+          "price": 3,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 3,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-13T09:40:35.338Z"
+    },
+    {
+      "id": "ord_d_1791884547229",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791788477212",
+          "name": "Şaurma Toyuq Çörəkdə",
+          "price": 3,
+          "quantity": 1
+        },
+        {
+          "productId": "d_1791787095380",
+          "name": "Ayran Atena",
+          "price": 0.6,
+          "quantity": 1
+        },
+        {
+          "productId": "d_1791796278931",
+          "name": "Super menyu Toyuq",
+          "price": 5,
+          "quantity": 2
+        }
+      ],
+      "subtotal": 13.6,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-13T09:42:27.229Z"
+    },
+    {
+      "id": "ord_d_1791884568138",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 1
+        },
+        {
+          "productId": "d_1791787095380",
+          "name": "Ayran Atena",
+          "price": 0.6,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 2.6,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-13T09:42:48.138Z"
+    },
+    {
+      "id": "ord_d_1791884582688",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 1
+        },
+        {
+          "productId": "d_1791787095380",
+          "name": "Ayran Atena",
+          "price": 0.6,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 2.6,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-13T09:43:02.688Z"
+    },
+    {
+      "id": "ord_d_1791884687401",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 4
+        },
+        {
+          "productId": "d_1791787095380",
+          "name": "Ayran Atena",
+          "price": 0.6,
+          "quantity": 2
+        }
+      ],
+      "subtotal": 9.2,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-13T09:44:47.401Z"
+    },
+    {
+      "id": "ord_d_1791884705189",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 2,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-13T09:45:05.189Z"
+    },
+    {
+      "id": "ord_d_1791884729710",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791787666499",
+          "name": "Basdırma Toyuq",
+          "price": 3,
+          "quantity": 1
+        },
+        {
+          "productId": "d_1791787025457",
+          "name": "Ayran Süzmə",
+          "price": 0.5,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 3.5,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-13T09:45:29.710Z"
+    },
+    {
+      "id": "ord_d_1791884964495",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 4
+        },
+        {
+          "productId": "d_1791787095380",
+          "name": "Ayran Atena",
+          "price": 0.6,
+          "quantity": 4
+        }
+      ],
+      "subtotal": 10.4,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-13T09:49:24.495Z"
+    },
+    {
+      "id": "ord_d_1791884991340",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 2,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-13T09:49:51.340Z",
+      "notes": "Dəyişdirildi (Tural Hüseynli, 12:02:45)"
+    },
+    {
+      "id": "ord_d_1791885279850",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791788477212",
+          "name": "Şaurma Toyuq Çörəkdə",
+          "price": 3,
+          "quantity": 3
+        },
+        {
+          "productId": "d_1791787095380",
+          "name": "Ayran Atena",
+          "price": 0.6,
+          "quantity": 3
+        }
+      ],
+      "subtotal": 10.8,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-13T09:54:39.850Z"
+    },
+    {
+      "id": "ord_d_1791885372210",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 1
+        },
+        {
+          "productId": "d_1791787025457",
+          "name": "Ayran Süzmə",
+          "price": 0.5,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 2.5,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-13T09:56:12.210Z"
+    },
+    {
+      "id": "ord_d_1791885423821",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 2
+        },
+        {
+          "productId": "d_1791787095380",
+          "name": "Ayran Atena",
+          "price": 0.6,
+          "quantity": 2
+        }
+      ],
+      "subtotal": 5.2,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-13T09:57:03.821Z"
+    },
+    {
+      "id": "ord_d_1791885704816",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 3
+        }
+      ],
+      "subtotal": 6,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-13T10:01:44.816Z"
+    },
+    {
+      "id": "ord_d_1791885730402",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 4
+        },
+        {
+          "productId": "d_1791787095380",
+          "name": "Ayran Atena",
+          "price": 0.6,
+          "quantity": 6
+        },
+        {
+          "productId": "d3",
+          "name": "Ət Dönəri (Çörəkdə)",
+          "price": 3,
+          "quantity": 2
+        }
+      ],
+      "subtotal": 17.6,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-13T10:02:10.402Z"
+    },
+    {
+      "id": "ord_d_1791885852841",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791793365482",
+          "name": "Toyuq Dönəri Çörəkdə",
+          "price": 2.5,
+          "quantity": 4
+        }
+      ],
+      "subtotal": 10,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-13T10:04:12.841Z"
+    },
+    {
+      "id": "ord_d_1791886168990",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 1
+        },
+        {
+          "productId": "d_1791787095380",
+          "name": "Ayran Atena",
+          "price": 0.6,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 2.6,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-13T10:09:28.991Z"
+    },
+    {
+      "id": "ord_d_1791886295994",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 1
+        },
+        {
+          "productId": "d_1791787095380",
+          "name": "Ayran Atena",
+          "price": 0.6,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 2.6,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-13T10:11:35.994Z"
+    },
+    {
+      "id": "ord_d_1791886399094",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d2",
+          "name": "Toyuq Dönəri (Lavaşda) Tələbə",
+          "price": 2.5,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 2.5,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-13T10:13:19.094Z"
+    },
+    {
+      "id": "ord_d_1791886419335",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 2,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-13T10:13:39.335Z"
+    },
+    {
+      "id": "ord_d_1791886506565",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791793365482",
+          "name": "Toyuq Dönəri Çörəkdə",
+          "price": 2.5,
+          "quantity": 2
+        },
+        {
+          "productId": "d_1791787025457",
+          "name": "Ayran Süzmə",
+          "price": 0.5,
+          "quantity": 2
+        },
+        {
+          "productId": "d4",
+          "name": "Ət Dönəri (Lavaşda)",
+          "price": 3.5,
+          "quantity": 2
+        }
+      ],
+      "subtotal": 13,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-13T10:15:06.565Z"
+    },
+    {
+      "id": "ord_d_1791886606535",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d4",
+          "name": "Ət Dönəri (Lavaşda)",
+          "price": 3.5,
+          "quantity": 1
+        },
+        {
+          "productId": "d7",
+          "name": "Coca-Cola 330ml",
+          "price": 1,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 4.5,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-13T10:16:46.536Z"
+    },
+    {
+      "id": "ord_d_1791887470233",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 2
+        }
+      ],
+      "subtotal": 4,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-13T10:31:10.234Z"
+    },
+    {
+      "id": "ord_d_1791887803749",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 2,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-13T10:36:43.749Z"
+    },
+    {
+      "id": "ord_d_1791887932080",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 1
+        },
+        {
+          "productId": "d3",
+          "name": "Ət Dönəri (Çörəkdə)",
+          "price": 3,
+          "quantity": 1
+        },
+        {
+          "productId": "d_1791787095380",
+          "name": "Ayran Atena",
+          "price": 0.6,
+          "quantity": 2
+        }
+      ],
+      "subtotal": 6.2,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-13T10:38:52.080Z"
+    },
+    {
+      "id": "ord_d_1791887948168",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 2,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-13T10:39:08.168Z"
+    },
+    {
+      "id": "ord_d_1791887972390",
+      "orderType": "TABLE",
+      "tableNumber": 3,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 2
+        }
+      ],
+      "subtotal": 4,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-13T10:39:32.390Z"
+    },
+    {
+      "id": "ord_d_1791887989063",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791787666499",
+          "name": "Basdırma Toyuq",
+          "price": 3,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 3,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-13T10:39:49.063Z"
+    },
+    {
+      "id": "ord_d_1791888035364",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791820434146",
+          "name": "Şaurma Ət Lavaş",
+          "price": 4.5,
+          "quantity": 1
+        },
+        {
+          "productId": "d_1791795166677",
+          "name": "Coca Cola 500ml",
+          "price": 1.5,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 6,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-13T10:40:35.364Z"
+    },
+    {
+      "id": "ord_d_1791888197011",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 1
+        },
+        {
+          "productId": "d_1791787095380",
+          "name": "Ayran Atena",
+          "price": 0.6,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 2.6,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-13T10:43:17.011Z"
+    },
+    {
+      "id": "ord_d_1791888493022",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 1
+        },
+        {
+          "productId": "d2",
+          "name": "Toyuq Dönəri (Lavaşda) Tələbə",
+          "price": 2.5,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 4.5,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-13T10:48:13.022Z"
+    },
+    {
+      "id": "ord_d_1791888568577",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 2
+        },
+        {
+          "productId": "d_1791787025457",
+          "name": "Ayran Süzmə",
+          "price": 0.5,
+          "quantity": 2
+        }
+      ],
+      "subtotal": 5,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-13T10:49:28.577Z"
+    },
+    {
+      "id": "ord_d_1791889063491",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791787666499",
+          "name": "Basdırma Toyuq",
+          "price": 3,
+          "quantity": 1
+        },
+        {
+          "productId": "d_1791787095380",
+          "name": "Ayran Atena",
+          "price": 0.6,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 3.6,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-13T10:57:43.492Z"
+    },
+    {
+      "id": "ord_d_1791889428325",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 1
+        },
+        {
+          "productId": "d_1791787095380",
+          "name": "Ayran Atena",
+          "price": 0.6,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 2.6,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-13T11:03:48.325Z"
+    },
+    {
+      "id": "ord_d_1791889471673",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 1
+        },
+        {
+          "productId": "d_1791787095380",
+          "name": "Ayran Atena",
+          "price": 0.6,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 2.6,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-13T11:04:31.673Z"
+    },
+    {
+      "id": "ord_d_1791889653432",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 1
+        },
+        {
+          "productId": "d_1791787095380",
+          "name": "Ayran Atena",
+          "price": 0.6,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 2.6,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-13T11:07:33.432Z"
+    },
+    {
+      "id": "ord_d_1791889868133",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 2,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-13T11:11:08.133Z"
+    },
+    {
+      "id": "ord_d_1791889961481",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 2
+        },
+        {
+          "productId": "d_1791787095380",
+          "name": "Ayran Atena",
+          "price": 0.6,
+          "quantity": 2
+        }
+      ],
+      "subtotal": 5.2,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-13T11:12:41.481Z"
+    },
+    {
+      "id": "ord_d_1791890121172",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 1
+        },
+        {
+          "productId": "d_1791787025457",
+          "name": "Ayran Süzmə",
+          "price": 0.5,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 2.5,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-13T11:15:21.172Z"
+    },
+    {
+      "id": "ord_d_1791890198922",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 2,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-13T11:16:38.922Z"
+    },
+    {
+      "id": "ord_d_1791890385654",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d3",
+          "name": "Ət Dönəri (Çörəkdə)",
+          "price": 3,
+          "quantity": 1
+        },
+        {
+          "productId": "d_1791787095380",
+          "name": "Ayran Atena",
+          "price": 0.6,
+          "quantity": 1
+        },
+        {
+          "productId": "d_1791787025457",
+          "name": "Ayran Süzmə",
+          "price": 0.5,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 4.1,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-13T11:19:45.654Z"
+    },
+    {
+      "id": "ord_d_1791890395815",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 2,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-13T11:19:55.815Z"
+    },
+    {
+      "id": "ord_d_1791890421554",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791787095380",
+          "name": "Ayran Atena",
+          "price": 0.6,
+          "quantity": 1
+        },
+        {
+          "productId": "d3",
+          "name": "Ət Dönəri (Çörəkdə)",
+          "price": 3,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 3.6,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-13T11:20:21.554Z"
+    },
+    {
+      "id": "ord_d_1791890454165",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 1
+        },
+        {
+          "productId": "d_1791787095380",
+          "name": "Ayran Atena",
+          "price": 0.6,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 2.6,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-13T11:20:54.165Z"
+    },
+    {
+      "id": "ord_d_1791890521471",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 1
+        },
+        {
+          "productId": "d_1791787025457",
+          "name": "Ayran Süzmə",
+          "price": 0.5,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 2.5,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-13T11:22:01.471Z"
+    },
+    {
+      "id": "ord_d_1791890749290",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 1
+        },
+        {
+          "productId": "d_1791787095380",
+          "name": "Ayran Atena",
+          "price": 0.6,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 2.6,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-13T11:25:49.290Z"
+    },
+    {
+      "id": "ord_d_1791891904942",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791793365482",
+          "name": "Toyuq Dönəri Çörəkdə",
+          "price": 2.5,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 2.5,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-13T11:45:04.942Z"
+    },
+    {
+      "id": "ord_d_1791892637297",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d3",
+          "name": "Ət Dönəri (Çörəkdə)",
+          "price": 3,
+          "quantity": 1
+        },
+        {
+          "productId": "d7",
+          "name": "Coca-Cola 330ml",
+          "price": 1,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 4,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-13T11:57:17.297Z"
+    },
+    {
+      "id": "ord_d_1791892714741",
+      "orderType": "TABLE",
+      "tableNumber": 2,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 2
+        }
+      ],
+      "subtotal": 4,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-13T11:58:34.741Z"
+    },
+    {
+      "id": "ord_d_1791892722218",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 1
+        },
+        {
+          "productId": "d_1791787095380",
+          "name": "Ayran Atena",
+          "price": 0.6,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 2.6,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-13T11:58:42.219Z"
+    },
+    {
+      "id": "ord_d_1791893050349",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 2
+        }
+      ],
+      "subtotal": 4,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-13T12:04:10.349Z"
+    },
+    {
+      "id": "ord_d_1791893070751",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 2
+        },
+        {
+          "productId": "d_1791787095380",
+          "name": "Ayran Atena",
+          "price": 0.6,
+          "quantity": 2
+        }
+      ],
+      "subtotal": 5.2,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-13T12:04:30.751Z"
+    },
+    {
+      "id": "ord_d_1791893086408",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791800057506",
+          "name": "Toyuq Dönəri Lavaşda",
+          "price": 3,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 3,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-13T12:04:46.408Z"
+    },
+    {
+      "id": "ord_d_1791893254045",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 1
+        },
+        {
+          "productId": "d_1791787095380",
+          "name": "Ayran Atena",
+          "price": 0.6,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 2.6,
+      "paymentMethod": "NAGD",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-13T12:07:34.045Z"
+    },
+    {
+      "id": "ord_d_1791894369799",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 1
+        },
+        {
+          "productId": "d2",
+          "name": "Toyuq Dönəri (Lavaşda) Tələbə",
+          "price": 2.5,
+          "quantity": 1
+        },
+        {
+          "productId": "d_1791787095380",
+          "name": "Ayran Atena",
+          "price": 0.6,
+          "quantity": 2
+        }
+      ],
+      "subtotal": 5.7,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-13T12:26:09.799Z"
+    },
+    {
+      "id": "ord_d_1791894481350",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 2
+        },
+        {
+          "productId": "d_1791787095380",
+          "name": "Ayran Atena",
+          "price": 0.6,
+          "quantity": 2
+        }
+      ],
+      "subtotal": 5.2,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-13T12:28:01.351Z"
+    },
+    {
+      "id": "ord_d_1791894736229",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d2",
+          "name": "Toyuq Dönəri (Lavaşda) Tələbə",
+          "price": 2.5,
+          "quantity": 2
+        },
+        {
+          "productId": "d_1791787095380",
+          "name": "Ayran Atena",
+          "price": 0.6,
+          "quantity": 2
+        }
+      ],
+      "subtotal": 6.2,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-13T12:32:16.229Z"
+    },
+    {
+      "id": "ord_d_1791895832295",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 2,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-13T12:50:32.296Z"
+    },
+    {
+      "id": "ord_d_1791895950204",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 1
+        },
+        {
+          "productId": "d_1791787025457",
+          "name": "Ayran Süzmə",
+          "price": 0.5,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 2.5,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-13T12:52:30.204Z"
+    },
+    {
+      "id": "ord_d_1791896955360",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791787095380",
+          "name": "Ayran Atena",
+          "price": 0.6,
+          "quantity": 2
+        },
+        {
+          "productId": "d4",
+          "name": "Ət Dönəri (Lavaşda)",
+          "price": 3.5,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 4.7,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-13T13:09:15.360Z"
+    },
+    {
+      "id": "ord_d_1791897805436",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d3",
+          "name": "Ət Dönəri (Çörəkdə)",
+          "price": 3,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 3,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-13T13:23:25.436Z"
+    },
+    {
+      "id": "ord_d_1791897987290",
+      "orderType": "TABLE",
+      "tableNumber": 1,
+      "items": [
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "price": 2,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 2,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-13T13:26:27.290Z"
+    },
+    {
+      "id": "ord_pos_20261010_manual",
+      "orderType": "TAKEAWAY",
+      "items": [
+        {
+          "productId": "d_pos_terminal",
+          "name": "POS Terminal Satışı (10.10.2026)",
+          "price": 356.5,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 356.5,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-10T18:00:00.000Z"
+    },
+    {
+      "id": "ord_pos_20261011_manual",
+      "orderType": "TAKEAWAY",
+      "items": [
+        {
+          "productId": "d_pos_terminal",
+          "name": "POS Terminal Satışı (11.10.2026)",
+          "price": 123.8,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 123.8,
+      "paymentMethod": "POS_TERMINAL",
+      "status": "COMPLETED",
+      "createdAt": "2026-10-11T18:00:00.000Z"
+    }
+  ],
+  "expenses": [
+    {
+      "id": "exp_1792327528590",
+      "title": "Scooter təmir alışı (1 ədəd)",
+      "amount": 5,
+      "category": "Məhsul Alışı",
+      "date": "2026-10-18",
+      "business": "DONER",
+      "isInventoryPurchase": true,
+      "inventoryItemName": "Scooter təmir",
+      "itemCategory": "Digər",
+      "quantity": 1,
+      "unit": "ədəd",
+      "unitPrice": 5,
+      "paymentSource": "Nağd",
+      "note": "",
+      "addToMenu": false,
+      "isConfirmed": true,
+      "confirmedAt": "2026-10-18T12:45:28.590Z",
+      "confirmedBy": "Kassir",
+      "createdAt": "2026-10-18T12:45:28.529Z",
+      "timestamp": "2026-10-18T12:45:28.529Z"
+    },
+    {
+      "id": "exp_1792177275482",
+      "title": "Xadime",
+      "amount": 20,
+      "category": "Maaş",
+      "date": "2026-10-16",
+      "business": "DONER",
+      "isInventoryPurchase": false,
+      "paymentSource": "Nağd",
+      "isConfirmed": true,
+      "confirmedAt": "2026-10-16T19:01:15.483Z",
+      "confirmedBy": "Kassir",
+      "createdAt": "2026-10-16T19:01:15.317Z",
+      "timestamp": "2026-10-16T19:01:15.317Z"
+    },
+    {
+      "id": "exp_1791903496662",
+      "title": "Evez",
+      "amount": 25,
+      "category": "Maaş",
+      "date": "2026-10-13",
+      "business": "DONER",
+      "isInventoryPurchase": false,
+      "paymentSource": "Nağd",
+      "isConfirmed": true,
+      "confirmedAt": "2026-10-13T14:58:16.663Z",
+      "confirmedBy": "Kassir",
+      "createdAt": "2026-10-13T14:58:16.399Z",
+      "timestamp": "2026-10-13T14:58:16.399Z"
+    },
+    {
+      "id": "exp_1791903486529",
+      "title": "Turqut",
+      "amount": 60,
+      "category": "Maaş",
+      "date": "2026-10-13",
+      "business": "DONER",
+      "isInventoryPurchase": false,
+      "paymentSource": "Nağd",
+      "isConfirmed": true,
+      "confirmedAt": "2026-10-13T14:58:06.529Z",
+      "confirmedBy": "Kassir",
+      "createdAt": "2026-10-13T14:58:06.259Z",
+      "timestamp": "2026-10-13T14:58:06.259Z"
+    },
+    {
+      "id": "exp_1791898807424",
+      "title": "Dönər Çörəyi alışı (1 ədəd)",
+      "amount": 51,
+      "category": "Məhsul Alışı",
+      "date": "2026-10-13",
+      "business": "DONER",
+      "isInventoryPurchase": true,
+      "inventoryItemName": "Dönər Çörəyi",
+      "itemCategory": "Çörək",
+      "quantity": 1,
+      "unit": "ədəd",
+      "unitPrice": 51,
+      "paymentSource": "Nağd",
+      "note": "",
+      "addToMenu": false,
+      "isConfirmed": true,
+      "confirmedAt": "2026-10-13T13:40:07.424Z",
+      "confirmedBy": "Kassir",
+      "createdAt": "2026-10-13T13:40:07.332Z",
+      "timestamp": "2026-10-13T13:40:07.332Z"
+    },
+    {
+      "id": "exp_1791897455179",
+      "title": "Konfet alışı (1 ədəd)",
+      "amount": 2,
+      "category": "Məhsul Alışı",
+      "date": "2026-10-13",
+      "business": "DONER",
+      "isInventoryPurchase": true,
+      "inventoryItemName": "Konfet",
+      "itemCategory": "İçki",
+      "quantity": 1,
+      "unit": "ədəd",
+      "unitPrice": 2,
+      "paymentSource": "Nağd",
+      "note": "",
+      "addToMenu": false,
+      "isConfirmed": true,
+      "confirmedAt": "2026-10-13T13:17:35.179Z",
+      "confirmedBy": "Kassir",
+      "createdAt": "2026-10-13T13:17:35.094Z",
+      "timestamp": "2026-10-13T13:17:35.094Z"
+    },
+    {
+      "id": "exp_1791881031633",
+      "title": "Şahin taksi laçın alışı (1 ədəd)",
+      "amount": 7,
+      "category": "Məhsul Alışı",
+      "date": "2026-10-13",
+      "business": "DONER",
+      "isInventoryPurchase": true,
+      "inventoryItemName": "Şahin taksi laçın",
+      "itemCategory": "Digər",
+      "quantity": 1,
+      "unit": "ədəd",
+      "unitPrice": 7,
+      "paymentSource": "Nağd",
+      "note": "",
+      "addToMenu": false,
+      "isConfirmed": true,
+      "confirmedAt": "2026-10-13T08:43:51.633Z",
+      "confirmedBy": "Kassir",
+      "createdAt": "2026-10-13T08:43:51.389Z",
+      "timestamp": "2026-10-13T08:43:51.389Z"
+    },
+    {
+      "id": "exp_1791878853517",
+      "title": "Zibil kloku alışı (2 ədəd)",
+      "amount": 2,
+      "category": "Məhsul Alışı",
+      "date": "2026-10-13",
+      "business": "DONER",
+      "isInventoryPurchase": true,
+      "inventoryItemName": "Zibil kloku",
+      "itemCategory": "Digər",
+      "quantity": 2,
+      "unit": "ədəd",
+      "unitPrice": 1,
+      "paymentSource": "Nağd",
+      "note": "",
+      "addToMenu": false,
+      "isConfirmed": true,
+      "confirmedAt": "2026-10-13T08:07:33.517Z",
+      "confirmedBy": "Kassir",
+      "createdAt": "2026-10-13T08:07:33.390Z",
+      "timestamp": "2026-10-13T08:07:33.390Z"
+    },
+    {
+      "id": "exp_1791875684631",
+      "title": "Cola Edv alışı (1 ədəd)",
+      "amount": 20,
+      "category": "Məhsul Alışı",
+      "date": "2026-10-13",
+      "business": "DONER",
+      "isInventoryPurchase": true,
+      "inventoryItemName": "Cola Edv",
+      "itemCategory": "Digər",
+      "quantity": 1,
+      "unit": "ədəd",
+      "unitPrice": 20,
+      "paymentSource": "Nağd",
+      "note": "",
+      "addToMenu": false,
+      "isConfirmed": true,
+      "confirmedAt": "2026-10-13T07:14:44.631Z",
+      "confirmedBy": "Kassir",
+      "createdAt": "2026-10-13T07:14:44.502Z",
+      "timestamp": "2026-10-13T07:14:44.502Z"
+    },
+    {
+      "id": "exp_1791875664401",
+      "title": "Sprite 500 ml alışı (12 ədəd)",
+      "amount": 8.79,
+      "category": "Məhsul Alışı",
+      "date": "2026-10-13",
+      "business": "DONER",
+      "isInventoryPurchase": true,
+      "inventoryItemName": "Sprite 500 ml",
+      "itemCategory": "Digər",
+      "quantity": 12,
+      "unit": "ədəd",
+      "unitPrice": 0.73,
+      "paymentSource": "Nağd",
+      "note": "",
+      "addToMenu": false,
+      "isConfirmed": true,
+      "confirmedAt": "2026-10-13T07:14:24.401Z",
+      "confirmedBy": "Kassir",
+      "createdAt": "2026-10-13T07:14:24.290Z",
+      "timestamp": "2026-10-13T07:14:24.290Z"
+    },
+    {
+      "id": "exp_1791875621051",
+      "title": "Sprite 300ml alışı (24 ədəd)",
+      "amount": 12.37,
+      "category": "Məhsul Alışı",
+      "date": "2026-10-13",
+      "business": "DONER",
+      "isInventoryPurchase": true,
+      "inventoryItemName": "Sprite 300ml",
+      "itemCategory": "Digər",
+      "quantity": 24,
+      "unit": "ədəd",
+      "unitPrice": 0.52,
+      "paymentSource": "Nağd",
+      "note": "",
+      "addToMenu": false,
+      "isConfirmed": true,
+      "confirmedAt": "2026-10-13T07:13:41.051Z",
+      "confirmedBy": "Kassir",
+      "createdAt": "2026-10-13T07:13:40.721Z",
+      "timestamp": "2026-10-13T07:13:40.721Z"
+    },
+    {
+      "id": "exp_1791875581193",
+      "title": "Fanta 500 ml alışı (24 ədəd)",
+      "amount": 17.57,
+      "category": "Məhsul Alışı",
+      "date": "2026-10-13",
+      "business": "DONER",
+      "isInventoryPurchase": true,
+      "inventoryItemName": "Fanta 500 ml",
+      "itemCategory": "Digər",
+      "quantity": 24,
+      "unit": "ədəd",
+      "unitPrice": 0.73,
+      "paymentSource": "Nağd",
+      "note": "",
+      "addToMenu": false,
+      "isConfirmed": true,
+      "confirmedAt": "2026-10-13T07:13:01.193Z",
+      "confirmedBy": "Kassir",
+      "createdAt": "2026-10-13T07:13:00.965Z",
+      "timestamp": "2026-10-13T07:13:00.965Z"
+    },
+    {
+      "id": "exp_1791875553283",
+      "title": "Fanta 330ml alışı (24 ədəd)",
+      "amount": 12.37,
+      "category": "Məhsul Alışı",
+      "date": "2026-10-13",
+      "business": "DONER",
+      "isInventoryPurchase": true,
+      "inventoryItemName": "Fanta 330ml",
+      "itemCategory": "İçki",
+      "quantity": 24,
+      "unit": "ədəd",
+      "unitPrice": 0.52,
+      "paymentSource": "Nağd",
+      "note": "",
+      "addToMenu": false,
+      "isConfirmed": true,
+      "confirmedAt": "2026-10-13T07:12:33.283Z",
+      "confirmedBy": "Kassir",
+      "createdAt": "2026-10-13T07:12:33.117Z",
+      "timestamp": "2026-10-13T07:12:33.117Z"
+    },
+    {
+      "id": "exp_1791875527973",
+      "title": "Coca Cola 500ml alışı (48 ədəd)",
+      "amount": 35.14,
+      "category": "Məhsul Alışı",
+      "date": "2026-10-13",
+      "business": "DONER",
+      "isInventoryPurchase": true,
+      "inventoryItemName": "Coca Cola 500ml",
+      "itemCategory": "İçki",
+      "quantity": 48,
+      "unit": "ədəd",
+      "unitPrice": 0.73,
+      "paymentSource": "Nağd",
+      "note": "",
+      "addToMenu": false,
+      "isConfirmed": true,
+      "confirmedAt": "2026-10-13T07:12:07.973Z",
+      "confirmedBy": "Kassir",
+      "createdAt": "2026-10-13T07:12:07.759Z",
+      "timestamp": "2026-10-13T07:12:07.759Z"
+    },
+    {
+      "id": "exp_1791875358380",
+      "title": "Coca-Cola 330ml alışı (48 ədəd)",
+      "amount": 24.74,
+      "category": "Məhsul Alışı",
+      "date": "2026-10-13",
+      "business": "DONER",
+      "isInventoryPurchase": true,
+      "inventoryItemName": "Coca-Cola 330ml",
+      "itemCategory": "İçki",
+      "quantity": 48,
+      "unit": "ədəd",
+      "unitPrice": 0.52,
+      "paymentSource": "Nağd",
+      "note": "",
+      "addToMenu": false,
+      "isConfirmed": true,
+      "confirmedAt": "2026-10-13T07:09:18.380Z",
+      "confirmedBy": "Kassir",
+      "createdAt": "2026-10-13T07:09:17.410Z",
+      "timestamp": "2026-10-13T07:09:17.410Z"
+    },
+    {
+      "id": "exp_1791831186643",
+      "title": "Ayran alışı (1 ədəd)",
+      "amount": 34,
+      "category": "Məhsul Alışı",
+      "date": "2026-10-12",
+      "business": "DONER",
+      "isInventoryPurchase": true,
+      "inventoryItemName": "Ayran",
+      "itemCategory": "İçki",
+      "quantity": 1,
+      "unit": "ədəd",
+      "unitPrice": 34,
+      "paymentSource": "Nağd",
+      "note": "",
+      "addToMenu": false,
+      "isConfirmed": true,
+      "confirmedAt": "2026-10-12T18:53:08.383Z",
+      "confirmedBy": "Kassir",
+      "createdAt": "2026-10-12T18:53:06.162Z",
+      "timestamp": "2026-10-12T18:53:06.162Z"
+    },
+    {
+      "id": "exp_1791826469604",
+      "title": "Elektirk usta alışı (1 ədəd)",
+      "amount": 15,
+      "category": "Məhsul Alışı",
+      "date": "2026-10-12",
+      "business": "DONER",
+      "isInventoryPurchase": true,
+      "inventoryItemName": "Elektirk usta",
+      "itemCategory": "İçki",
+      "quantity": 1,
+      "unit": "ədəd",
+      "unitPrice": 15,
+      "paymentSource": "Nağd",
+      "note": "",
+      "addToMenu": false,
+      "isConfirmed": true,
+      "confirmedAt": "2026-10-12T17:34:36.732Z",
+      "confirmedBy": "Kassir",
+      "createdAt": "2026-10-12T17:34:29.194Z",
+      "timestamp": "2026-10-12T17:34:29.194Z"
+    },
+    {
+      "id": "exp_1791825905836",
+      "title": "Cörək alışı (10 ədəd)",
+      "amount": 2.5,
+      "category": "Məhsul Alışı",
+      "date": "2026-10-12",
+      "business": "DONER",
+      "isInventoryPurchase": true,
+      "inventoryItemName": "Cörək",
+      "itemCategory": "İçki",
+      "quantity": 10,
+      "unit": "ədəd",
+      "unitPrice": 0.25,
+      "paymentSource": "Nağd",
+      "note": "",
+      "addToMenu": false,
+      "isConfirmed": true,
+      "confirmedAt": "2026-10-12T17:25:07.697Z",
+      "confirmedBy": "Kassir",
+      "createdAt": "2026-10-12T17:25:05.571Z",
+      "timestamp": "2026-10-12T17:25:05.571Z"
+    },
+    {
+      "id": "exp_1791821022551",
+      "title": "Bicağ itiləmək alışı (1 ədəd)",
+      "amount": 5,
+      "category": "Məhsul Alışı",
+      "date": "2026-10-12",
+      "business": "DONER",
+      "isInventoryPurchase": true,
+      "inventoryItemName": "Bicağ itiləmək",
+      "itemCategory": "İçki",
+      "quantity": 1,
+      "unit": "ədəd",
+      "unitPrice": 5,
+      "paymentSource": "Nağd",
+      "note": "",
+      "addToMenu": false,
+      "isConfirmed": true,
+      "confirmedAt": "2026-10-12T16:03:45.946Z",
+      "confirmedBy": "Kassir",
+      "createdAt": "2026-10-12T16:03:42.483Z",
+      "timestamp": "2026-10-12T16:03:42.483Z"
+    },
+    {
+      "id": "exp_1791820603789",
+      "title": "Mehdi",
+      "amount": 20,
+      "category": "Maaş",
+      "date": "2026-10-12",
+      "business": "DONER",
+      "isInventoryPurchase": false,
+      "paymentSource": "Nağd",
+      "isConfirmed": true,
+      "confirmedAt": "2026-10-12T15:56:43.789Z",
+      "confirmedBy": "Kassir",
+      "createdAt": "2026-10-12T15:56:43.584Z",
+      "timestamp": "2026-10-12T15:56:43.584Z"
+    },
+    {
+      "id": "exp_1791820145471",
+      "title": "Əvəz",
+      "amount": 25,
+      "category": "Maaş",
+      "date": "2026-10-12",
+      "business": "DONER",
+      "isInventoryPurchase": false,
+      "paymentSource": "Nağd",
+      "isConfirmed": true,
+      "confirmedAt": "2026-10-12T15:49:05.471Z",
+      "confirmedBy": "Kassir",
+      "createdAt": "2026-10-12T15:49:05.260Z",
+      "timestamp": "2026-10-12T15:49:05.260Z"
+    },
+    {
+      "id": "exp_1791820134588",
+      "title": "Xadimə",
+      "amount": 12,
+      "category": "Maaş",
+      "date": "2026-10-12",
+      "business": "DONER",
+      "isInventoryPurchase": false,
+      "paymentSource": "Nağd",
+      "isConfirmed": true,
+      "confirmedAt": "2026-10-12T15:48:54.588Z",
+      "confirmedBy": "Kassir",
+      "createdAt": "2026-10-12T15:48:54.404Z",
+      "timestamp": "2026-10-12T15:48:54.404Z"
+    },
+    {
+      "id": "exp_1791820128207",
+      "title": "Turqut",
+      "amount": 60,
+      "category": "Maaş",
+      "date": "2026-10-12",
+      "business": "DONER",
+      "isInventoryPurchase": false,
+      "paymentSource": "Nağd",
+      "isConfirmed": true,
+      "confirmedAt": "2026-10-12T15:48:48.208Z",
+      "confirmedBy": "Kassir",
+      "createdAt": "2026-10-12T15:48:47.997Z",
+      "timestamp": "2026-10-12T15:48:47.997Z"
+    },
+    {
+      "id": "exp_1791820056462",
+      "title": "Şirniyyat alışı (1 ədəd)",
+      "amount": 2,
+      "category": "Məhsul Alışı",
+      "date": "2026-10-12",
+      "business": "DONER",
+      "isInventoryPurchase": true,
+      "inventoryItemName": "Şirniyyat",
+      "itemCategory": "Digər",
+      "quantity": 1,
+      "unit": "ədəd",
+      "unitPrice": 2,
+      "paymentSource": "Nağd",
+      "note": "",
+      "addToMenu": false,
+      "isConfirmed": true,
+      "confirmedAt": "2026-10-12T15:47:36.462Z",
+      "confirmedBy": "Kassir",
+      "createdAt": "2026-10-12T15:47:36.256Z",
+      "timestamp": "2026-10-12T15:47:36.256Z"
+    },
+    {
+      "id": "exp_1791820040728",
+      "title": "Qatıq+qaymaq alışı (4 ədəd)",
+      "amount": 26,
+      "category": "Məhsul Alışı",
+      "date": "2026-10-12",
+      "business": "DONER",
+      "isInventoryPurchase": true,
+      "inventoryItemName": "Qatıq+qaymaq",
+      "itemCategory": "Digər",
+      "quantity": 4,
+      "unit": "ədəd",
+      "unitPrice": 6.5,
+      "paymentSource": "Nağd",
+      "note": "",
+      "addToMenu": false,
+      "isConfirmed": true,
+      "confirmedAt": "2026-10-12T15:47:20.728Z",
+      "confirmedBy": "Kassir",
+      "createdAt": "2026-10-12T15:47:20.627Z",
+      "timestamp": "2026-10-12T15:47:20.627Z"
+    },
+    {
+      "id": "exp_1791814968243",
+      "title": "Termuz Çay alışı (1 ədəd)",
+      "amount": 1,
+      "category": "Məhsul Alışı",
+      "date": "2026-10-12",
+      "business": "DONER",
+      "isInventoryPurchase": true,
+      "inventoryItemName": "Termuz Çay",
+      "itemCategory": "İçki",
+      "quantity": 1,
+      "unit": "ədəd",
+      "unitPrice": 1,
+      "paymentSource": "Nağd",
+      "note": "",
+      "addToMenu": false,
+      "isConfirmed": true,
+      "confirmedAt": "2026-10-12T14:22:48.243Z",
+      "confirmedBy": "Kassir",
+      "createdAt": "2026-10-12T14:22:48.118Z",
+      "timestamp": "2026-10-12T14:22:48.118Z"
+    },
+    {
+      "id": "exp_1791811777466",
+      "title": "Dönər Çörəyi alışı (20 ədəd)",
+      "amount": 3.6,
+      "category": "Məhsul Alışı",
+      "date": "2026-10-12",
+      "business": "DONER",
+      "isInventoryPurchase": true,
+      "inventoryItemName": "Dönər Çörəyi",
+      "itemCategory": "Çörək",
+      "quantity": 20,
+      "unit": "ədəd",
+      "unitPrice": 0.18,
+      "paymentSource": "Nağd",
+      "note": "",
+      "addToMenu": false,
+      "isConfirmed": true,
+      "confirmedAt": "2026-10-12T13:29:37.466Z",
+      "confirmedBy": "Kassir",
+      "createdAt": "2026-10-12T13:29:37.255Z",
+      "timestamp": "2026-10-12T13:29:37.255Z"
+    },
+    {
+      "id": "exp_1791811730714",
+      "title": "Dönər Çörəyi alışı (275 ədəd)",
+      "amount": 49,
+      "category": "Məhsul Alışı",
+      "date": "2026-10-12",
+      "business": "DONER",
+      "isInventoryPurchase": true,
+      "inventoryItemName": "Dönər Çörəyi",
+      "itemCategory": "Çörək",
+      "quantity": 275,
+      "unit": "ədəd",
+      "unitPrice": 0.18,
+      "paymentSource": "Nağd",
+      "note": "",
+      "addToMenu": false,
+      "isConfirmed": true,
+      "confirmedAt": "2026-10-12T13:28:50.714Z",
+      "confirmedBy": "Kassir",
+      "createdAt": "2026-10-12T13:28:50.483Z",
+      "timestamp": "2026-10-12T13:28:50.483Z"
+    },
+    {
+      "id": "exp_1791806749022",
+      "title": "Yemək alışı (4 ədəd)",
+      "amount": 4,
+      "category": "Məhsul Alışı",
+      "date": "2026-10-12",
+      "business": "DONER",
+      "isInventoryPurchase": true,
+      "inventoryItemName": "Yemək",
+      "itemCategory": "Digər",
+      "quantity": 4,
+      "unit": "ədəd",
+      "unitPrice": 1,
+      "paymentSource": "Nağd",
+      "note": "",
+      "addToMenu": false,
+      "isConfirmed": true,
+      "confirmedAt": "2026-10-12T12:05:49.022Z",
+      "confirmedBy": "Kassir",
+      "createdAt": "2026-10-12T12:05:49.000Z",
+      "timestamp": "2026-10-12T12:05:49.000Z"
+    },
+    {
+      "id": "exp_1791801920995",
+      "title": "Anabala kley alışı (1 ədəd)",
+      "amount": 4,
+      "category": "Məhsul Alışı",
+      "date": "2026-10-12",
+      "business": "DONER",
+      "isInventoryPurchase": true,
+      "inventoryItemName": "Anabala kley",
+      "itemCategory": "Digər",
+      "quantity": 1,
+      "unit": "ədəd",
+      "unitPrice": 4,
+      "paymentSource": "Nağd",
+      "note": "",
+      "addToMenu": false,
+      "isConfirmed": true,
+      "confirmedAt": "2026-10-12T10:45:20.995Z",
+      "confirmedBy": "Kassir",
+      "createdAt": "2026-10-12T10:45:20.432Z",
+      "timestamp": "2026-10-12T10:45:20.432Z"
+    },
+    {
+      "id": "exp_1791790186420",
+      "title": "Cola ƏDV alışı (1 ədəd)",
+      "amount": 15.91,
+      "category": "Məhsul Alışı",
+      "date": "2026-10-12",
+      "business": "DONER",
+      "isInventoryPurchase": true,
+      "inventoryItemName": "Cola ƏDV",
+      "itemCategory": "Digər",
+      "quantity": 1,
+      "unit": "ədəd",
+      "unitPrice": 15.91,
+      "paymentSource": "Nağd",
+      "note": "",
+      "addToMenu": false,
+      "isConfirmed": true,
+      "confirmedAt": "2026-10-12T07:29:46.420Z",
+      "confirmedBy": "Kassir",
+      "createdAt": "2026-10-12T07:29:45.866Z",
+      "timestamp": "2026-10-12T07:29:45.866Z"
+    },
+    {
+      "id": "exp_1791790118891",
+      "title": "Coca Cola 1L alışı (24 ədəd)",
+      "amount": 25.24,
+      "category": "Məhsul Alışı",
+      "date": "2026-10-12",
+      "business": "DONER",
+      "isInventoryPurchase": true,
+      "inventoryItemName": "Coca Cola 1L",
+      "itemCategory": "İçki",
+      "quantity": 24,
+      "unit": "ədəd",
+      "unitPrice": 1.05,
+      "paymentSource": "Nağd",
+      "note": "",
+      "addToMenu": false,
+      "isConfirmed": true,
+      "confirmedAt": "2026-10-12T07:28:38.891Z",
+      "confirmedBy": "Kassir",
+      "createdAt": "2026-10-12T07:28:38.508Z",
+      "timestamp": "2026-10-12T07:28:38.508Z"
+    },
+    {
+      "id": "exp_1791789948092",
+      "title": "Coca-Cola 330ml alışı (120 ədəd)",
+      "amount": 61.85,
+      "category": "Məhsul Alışı",
+      "date": "2026-10-12",
+      "business": "DONER",
+      "isInventoryPurchase": true,
+      "inventoryItemName": "Coca-Cola 330ml",
+      "itemCategory": "İçki",
+      "quantity": 120,
+      "unit": "ədəd",
+      "unitPrice": 0.52,
+      "paymentSource": "Nağd",
+      "note": "",
+      "addToMenu": false,
+      "isConfirmed": true,
+      "confirmedAt": "2026-10-12T07:25:48.093Z",
+      "confirmedBy": "Kassir",
+      "createdAt": "2026-10-12T07:25:47.857Z",
+      "timestamp": "2026-10-12T07:25:47.857Z"
+    }
+  ],
+  "couriers": [
+    {
+      "id": "c1",
+      "name": "Əli Məmmədov",
+      "phone": "+994 50 123 45 67"
+    },
+    {
+      "id": "c2",
+      "name": "Vüqar Həsənov",
+      "phone": "+994 55 987 65 43"
+    },
+    {
+      "id": "c3",
+      "name": "Nicat Əliyev",
+      "phone": "+994 70 456 78 90"
+    }
+  ],
+  "tableCount": 7,
+  "inventoryItems": [
+    {
+      "id": "i1",
+      "name": "Coca-Cola 330ml",
+      "category": "İçki",
+      "stock": 128,
+      "unit": "ədəd",
+      "totalReceived": 168,
+      "totalSold": 40
+    },
+    {
+      "id": "i2",
+      "name": "Fanta 330ml",
+      "category": "İçki",
+      "stock": 23,
+      "unit": "ədəd",
+      "totalReceived": 24,
+      "totalSold": 1
+    },
+    {
+      "id": "i3",
+      "name": "Ayran 200ml",
+      "category": "İçki",
+      "stock": 44,
+      "unit": "ədəd",
+      "totalReceived": 44,
+      "totalSold": 0
+    },
+    {
+      "id": "inv_1791790097697",
+      "name": "Coca Cola 1L",
+      "category": "İçki",
+      "stock": 21,
+      "unit": "ədəd",
+      "totalReceived": 24,
+      "totalSold": 0,
+      "totalUsed": 3,
+      "createdAt": "2026-10-12T07:28:17.697Z"
+    },
+    {
+      "id": "inv_1791798694960",
+      "name": "Fanta 500 ml",
+      "category": "Digər",
+      "stock": 28,
+      "unit": "ədəd",
+      "totalReceived": 29,
+      "totalSold": 1,
+      "totalUsed": 0,
+      "createdAt": "2026-10-12T09:51:34.960Z"
+    },
+    {
+      "id": "inv_1791798775291",
+      "name": "Sprite 500 ml",
+      "category": "Digər",
+      "stock": 19,
+      "unit": "ədəd",
+      "totalReceived": 20,
+      "totalSold": 1,
+      "totalUsed": 0,
+      "createdAt": "2026-10-12T09:52:55.291Z"
+    },
+    {
+      "id": "inv_1791875462816",
+      "name": "Coca Cola 500ml",
+      "category": "İçki",
+      "stock": 47,
+      "unit": "ədəd",
+      "totalReceived": 48,
+      "totalSold": 1,
+      "totalUsed": 0,
+      "createdAt": "2026-10-13T07:11:02.816Z"
+    },
+    {
+      "id": "inv_1791875604040",
+      "name": "Sprite 300ml",
+      "category": "Digər",
+      "stock": 24,
+      "unit": "ədəd",
+      "totalReceived": 24,
+      "totalSold": 0,
+      "totalUsed": 0,
+      "createdAt": "2026-10-13T07:13:24.040Z"
+    },
+    {
+      "id": "inv_1791875684631",
+      "name": "Cola Edv",
+      "category": "Digər",
+      "stock": 1,
+      "unit": "ədəd",
+      "totalReceived": 1,
+      "totalSold": 0
+    },
+    {
+      "id": "inv_1791878853519",
+      "name": "Zibil kloku",
+      "category": "Digər",
+      "stock": 2,
+      "unit": "ədəd",
+      "totalReceived": 2,
+      "totalSold": 0
+    },
+    {
+      "id": "inv_1791881031634",
+      "name": "Şahin taksi laçın",
+      "category": "Digər",
+      "stock": 1,
+      "unit": "ədəd",
+      "totalReceived": 1,
+      "totalSold": 0
+    },
+    {
+      "id": "inv_1791897455182",
+      "name": "Konfet",
+      "category": "İçki",
+      "stock": 1,
+      "unit": "ədəd",
+      "totalReceived": 1,
+      "totalSold": 0
+    },
+    {
+      "id": "inv_1791898807425",
+      "name": "Dönər Çörəyi",
+      "category": "Çörək",
+      "stock": 1,
+      "unit": "ədəd",
+      "totalReceived": 1,
+      "totalSold": 0
+    },
+    {
+      "id": "inv_1792327528592",
+      "name": "Scooter təmir",
+      "category": "Digər",
+      "stock": 1,
+      "unit": "ədəd",
+      "totalReceived": 1,
+      "totalSold": 0
+    }
+  ],
+  "inventoryUsages": [
+    {
+      "id": "use_1791802101772_nuz6",
+      "itemId": "inv_1791790097697",
+      "itemName": "Coca Cola 1L",
+      "category": "İçki",
+      "quantity": 1,
+      "unit": "ədəd",
+      "reason": "İşçi yeməyi",
+      "date": "2026-10-12",
+      "timestamp": "2026-10-12T10:48:21.772Z",
+      "createdByName": "Kassir / Aşpaz"
+    },
+    {
+      "id": "use_1791812519595_grim",
+      "itemId": "inv_1791790097697",
+      "itemName": "Coca Cola 1L",
+      "category": "İçki",
+      "quantity": 1,
+      "unit": "ədəd",
+      "reason": "İşçi yeməyi",
+      "date": "2026-10-12",
+      "timestamp": "2026-10-12T13:41:59.596Z",
+      "createdByName": "Kassir / Aşpaz"
+    },
+    {
+      "id": "use_1791882078460_t4zy",
+      "itemId": "inv_1791790097697",
+      "itemName": "Coca Cola 1L",
+      "category": "İçki",
+      "quantity": 1,
+      "unit": "ədəd",
+      "reason": "İşçi yeməyi",
+      "date": "2026-10-13",
+      "timestamp": "2026-10-13T09:01:18.461Z",
+      "createdByName": "Kassir / Aşpaz"
+    }
+  ],
+  "inventoryBatches": [],
+  "users": [
+    {
+      "id": "u1",
+      "name": "Anar Əliyev",
+      "pin": "1111",
+      "role": "CASHIER"
+    },
+    {
+      "id": "u2",
+      "name": "Leyla Məmmədova",
+      "pin": "2222",
+      "role": "CASHIER"
+    },
+    {
+      "id": "u3",
+      "name": "Tural Hüseynli",
+      "pin": "3333",
+      "role": "ADMIN"
+    }
+  ],
+  "shifts": [
+    {
+      "id": "shift_1791392820464",
+      "userId": "u1",
+      "userName": "Anar Əliyev",
+      "startTime": "2026-10-07T17:07:00.464Z",
+      "status": "ACTIVE",
+      "startingCash": 0,
+      "receivedCash": 525.0000000000001,
+      "receivedPosTerminal": 670.100000000001,
+      "receivedCard": 670.100000000001,
+      "receivedWolt": 0,
+      "receivedBolt": 0,
+      "receivedYango": 0,
+      "receivedCardTransfer": 0,
+      "receivedM10": 0,
+      "spentCash": 669.08,
+      "managementAdded": 0,
+      "managementWithdrawn": 0,
+      "cashTransactions": [],
+      "soldItems": [
+        {
+          "productId": "d_1791787025457",
+          "name": "Ayran Süzmə",
+          "quantity": 49,
+          "price": 0.5,
+          "business": "DONER"
+        },
+        {
+          "productId": "d_1791786997912",
+          "name": "Toyuq Dönəri Çörəkdə Tələbə",
+          "quantity": 256,
+          "price": 2,
+          "business": "DONER"
+        },
+        {
+          "productId": "d_1791787095380",
+          "name": "Ayran Atena",
+          "quantity": 161,
+          "price": 0.6,
+          "business": "DONER"
+        },
+        {
+          "productId": "d1",
+          "name": "Toyuq Dönəri (Çörəkdə)",
+          "quantity": 3,
+          "price": 2.5,
+          "business": "DONER"
+        },
+        {
+          "productId": "d2",
+          "name": "Toyuq Dönəri (Lavaşda) Tələbə",
+          "quantity": 15,
+          "price": 2.5,
+          "business": "DONER"
+        },
+        {
+          "productId": "d_1791787637205",
+          "name": "Fanta 500 ml",
+          "quantity": 3,
+          "price": 1.5,
+          "business": "DONER"
+        },
+        {
+          "productId": "d_1791787666499",
+          "name": "Basdırma Toyuq",
+          "quantity": 16,
+          "price": 3,
+          "business": "DONER"
+        },
+        {
+          "productId": "d_1791788477212",
+          "name": "Şaurma Toyuq Çörəkdə",
+          "quantity": 13,
+          "price": 3,
+          "business": "DONER"
+        },
+        {
+          "productId": "d3",
+          "name": "Ət Dönəri (Çörəkdə)",
+          "quantity": 43,
+          "price": 3,
+          "business": "DONER"
+        },
+        {
+          "productId": "d7",
+          "name": "Coca-Cola 330ml",
+          "quantity": 40,
+          "price": 1.5,
+          "business": "DONER"
+        },
+        {
+          "productId": "d_1791791656669",
+          "name": "Fanta 0.5",
+          "quantity": 2,
+          "price": 1.5,
+          "business": "DONER"
+        },
+        {
+          "productId": "d_1791793154850",
+          "name": "Ət Dönəri Böyük Çörəkdə",
+          "quantity": 4,
+          "price": 4,
+          "business": "DONER"
+        },
+        {
+          "productId": "d_1791793365482",
+          "name": "Toyuq Dönəri Çörəkdə",
+          "quantity": 33,
+          "price": 2.5,
+          "business": "DONER"
+        },
+        {
+          "productId": "d_1791795143999",
+          "name": "Şaurma Ət Çörəkdə",
+          "quantity": 3,
+          "price": 4,
+          "business": "DONER"
+        },
+        {
+          "productId": "d_1791795166677",
+          "name": "Coca Cola 500ml",
+          "quantity": 2,
+          "price": 1.5,
+          "business": "DONER"
+        },
+        {
+          "productId": "d_1791795275051",
+          "name": "Şaurma Toyuq Lavaşda",
+          "quantity": 3,
+          "price": 3.5,
+          "business": "DONER"
+        },
+        {
+          "productId": "d_1791796278931",
+          "name": "Super menyu Toyuq",
+          "quantity": 5,
+          "price": 5,
+          "business": "DONER"
+        },
+        {
+          "productId": "d4",
+          "name": "Ət Dönəri (Lavaşda)",
+          "quantity": 5,
+          "price": 3.5,
+          "business": "DONER"
+        },
+        {
+          "productId": "d_1791796945995",
+          "name": "Yoyuq Dönəri Böyük Çörəkdə",
+          "quantity": 5,
+          "price": 3,
+          "business": "DONER"
+        },
+        {
+          "productId": "d_1791799621538",
+          "name": "Şaurma Toyuq Lavaş",
+          "quantity": 1,
+          "price": 3.5,
+          "business": "DONER"
+        },
+        {
+          "productId": "d_1791800057506",
+          "name": "Toyuq Dönəri Lavaşda",
+          "quantity": 9,
+          "price": 3,
+          "business": "DONER"
+        },
+        {
+          "productId": "d_1791811214662",
+          "name": "Kartof fri",
+          "quantity": 1,
+          "price": 3,
+          "business": "DONER"
+        },
+        {
+          "productId": "d_1791811231830",
+          "name": "Basdırma Ət",
+          "quantity": 1,
+          "price": 4,
+          "business": "DONER"
+        },
+        {
+          "productId": "d_1791811337199",
+          "name": "Super Menyu Ət",
+          "quantity": 1,
+          "price": 6,
+          "business": "DONER"
+        },
+        {
+          "productId": "d_1791812451915",
+          "name": "Dadlı Kombo Toyuq",
+          "quantity": 2,
+          "price": 6,
+          "business": "DONER"
+        },
+        {
+          "productId": "d_1791798750511",
+          "name": "Sprite 500 ml",
+          "quantity": 1,
+          "price": 1.5,
+          "business": "DONER"
+        },
+        {
+          "productId": "d_1791820434146",
+          "name": "Şaurma Ət Lavaş",
+          "quantity": 3,
+          "price": 4.5,
+          "business": "DONER"
+        },
+        {
+          "productId": "d8",
+          "name": "Fanta 330ml",
+          "quantity": 1,
+          "price": 1,
+          "business": "DONER"
+        }
+      ],
+      "inventoryLosses": []
+    }
+  ],
+  "inventoryLosses": [],
+  "suppliers": [
+    {
+      "id": "sup_1791788088682",
+      "name": "Min Bir Bərəkət Halal Nemət",
+      "suppliedProduct": "",
+      "phone": "",
+      "company": "",
+      "category": "Ət və Toyuq",
+      "note": "",
+      "totalPurchases": 173,
+      "totalPaid": 0,
+      "debtBalance": 7823,
+      "createdAt": "2026-10-12T06:54:48.682Z"
+    }
+  ],
+  "supplierTransactions": [
+    {
+      "id": "tx_sup_1791818938042",
+      "supplierId": "sup_1791788088682",
+      "supplierName": "Min Bir Bərəkət Halal Nemət",
+      "type": "PURCHASE",
+      "totalAmount": 57.5,
+      "paidAmount": 0,
+      "debtAmount": 57.5,
+      "paymentSource": "Kassa (Nağd)",
+      "note": "",
+      "date": "2026-10-12",
+      "timestamp": "2026-10-12T15:28:58.042Z",
+      "itemsSummary": "5 kq Min Bir Bərəkət Halal Nemət Ət"
+    },
+    {
+      "id": "tx_sup_1791818921004",
+      "supplierId": "sup_1791788088682",
+      "supplierName": "Min Bir Bərəkət Halal Nemət",
+      "type": "PURCHASE",
+      "totalAmount": 115.5,
+      "paidAmount": 0,
+      "debtAmount": 115.5,
+      "paymentSource": "Kassa (Nağd)",
+      "note": "",
+      "date": "2026-10-12",
+      "timestamp": "2026-10-12T15:28:41.004Z",
+      "itemsSummary": "15 kq Min Bir Bərəkət Halal Nemət Toyuq"
+    }
+  ],
+  "flowerProducts": [],
+  "flowerOrders": []
+}
