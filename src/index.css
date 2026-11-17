@@ -28,6 +28,13 @@
 /* =======================================================
    LIGHT MODE SYSTEM OVERRIDES
    ======================================================= */
+/* Phone / mobile format: enforce light mode and completely remove theme toggle button */
+@media (max-width: 768px) {
+  #theme-toggle-top-btn {
+    display: none !important;
+  }
+}
+
 html.light-mode, body.light-mode {
   color-scheme: light;
   background-color: #f8fafc !important; /* slate-50 */

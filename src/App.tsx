@@ -69,25 +69,56 @@ export default function App() {
   const [qrTableNum, setQrTableNum] = useState<number | null>(null);
   const [isHubQRModalOpen, setIsHubQRModalOpen] = useState(false);
 
-  // Theme state (Dark / Light mode)
+  // Check if phone/mobile format (screen width <= 768px or mobile device)
+  const [isPhoneFormat, setIsPhoneFormat] = useState(() => {
+    if (typeof window === "undefined") return false;
+    return (
+      window.innerWidth <= 768 ||
+      /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)
+    );
+  });
+
+  useEffect(() => {
+    const handleResize = () => {
+      const isMobile =
+        window.innerWidth <= 768 ||
+        /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+      setIsPhoneFormat(isMobile);
+    };
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
+  // Theme state: On phone format, only Light Mode is active
   const [theme, setTheme] = useState<"dark" | "light">(() => {
     try {
-      return (localStorage.getItem("app_theme") as "dark" | "light") || "dark";
+      if (
+        typeof window !== "undefined" &&
+        (window.innerWidth <= 768 ||
+          /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent))
+      ) {
+        return "light";
+      }
+      return (localStorage.getItem("app_theme") as "dark" | "light") || "light";
     } catch {
-      return "dark";
+      return "light";
     }
   });
 
   useEffect(() => {
-    if (theme === "light") {
+    const isMobile = isPhoneFormat || currentMode === "WAITER_MOBILE";
+    if (isMobile || theme === "light") {
       document.documentElement.classList.add("light-mode");
     } else {
       document.documentElement.classList.remove("light-mode");
     }
-    localStorage.setItem("app_theme", theme);
-  }, [theme]);
+    if (!isMobile) {
+      localStorage.setItem("app_theme", theme);
+    }
+  }, [theme, isPhoneFormat, currentMode]);
 
   const toggleTheme = () => {
+    if (isPhoneFormat || currentMode === "WAITER_MOBILE") return;
     setTheme(prev => (prev === "dark" ? "light" : "dark"));
   };
 
@@ -403,12 +434,12 @@ export default function App() {
     }
   };
 
-  const topThemeBtn = (
+  const topThemeBtn = isPhoneFormat || currentMode === "WAITER_MOBILE" ? null : (
     <button
       type="button"
       onClick={toggleTheme}
       id="theme-toggle-top-btn"
-      className="fixed top-3 right-4 z-50 bg-slate-900/90 hover:bg-slate-800 border border-slate-700/80 text-amber-400 hover:text-amber-300 py-1.5 px-3 rounded-full shadow-xl backdrop-blur-md flex items-center space-x-1.5 transition-all cursor-pointer hover:scale-105 active:scale-95 group text-xs select-none"
+      className="hidden md:flex fixed top-3 right-4 z-50 bg-slate-900/90 hover:bg-slate-800 border border-slate-700/80 text-amber-400 hover:text-amber-300 py-1.5 px-3 rounded-full shadow-xl backdrop-blur-md items-center space-x-1.5 transition-all cursor-pointer hover:scale-105 active:scale-95 group text-xs select-none"
       title={theme === "dark" ? "Açıq Rejimə Keç (Light Mode)" : "Tünd Rejimə Keç (Dark Mode)"}
     >
       {theme === "dark" ? (
