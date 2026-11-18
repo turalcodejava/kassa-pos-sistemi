@@ -343,7 +343,10 @@ export default function KozDonerPOS({ state, onUpdateState, onBackToHub, current
     pin: string;
     error: string;
     onSuccess: () => void;
+    requireAdmin?: boolean;
   } | null>(null);
+
+  const [isReportsUnlocked, setIsReportsUnlocked] = useState(false);
 
   const requestPastDateConfirmation = (
     customDateTime: string,
@@ -372,6 +375,27 @@ export default function KozDonerPOS({ state, onUpdateState, onBackToHub, current
     });
   };
 
+  const handleOpenReports = () => {
+    setSelectedTable(null);
+    if (currentUser?.role === "ADMIN" || isReportsUnlocked) {
+      setActiveTab("REPORTS");
+      return;
+    }
+
+    setPinDialog({
+      isOpen: true,
+      title: "🔒 Admin / Rəhbər PİN Şifrəsi",
+      description: "Hesabatlar və maliyyə göstəriciləri məxfidir. Kassir girişi qadağandır. Giriş üçün Admin PİN şifrəsini daxil edin:",
+      pin: "",
+      error: "",
+      requireAdmin: true,
+      onSuccess: () => {
+        setIsReportsUnlocked(true);
+        setActiveTab("REPORTS");
+      }
+    });
+  };
+
   const handleVerifyAndSubmitPin = () => {
     if (!pinDialog) return;
     const inputPin = pinDialog.pin.trim();
@@ -379,16 +403,28 @@ export default function KozDonerPOS({ state, onUpdateState, onBackToHub, current
       setPinDialog(prev => prev ? { ...prev, error: "PİN kod daxil edilməlidir!" } : null);
       return;
     }
-    const isValid = (state.users || []).some(u => u.pin === inputPin) || 
-                    inputPin === "1234" || 
-                    inputPin === "1111" || 
-                    inputPin === "2222" || 
-                    inputPin === "3333" || 
-                    inputPin === "9999" ||
-                    (currentUser && currentUser.pin === inputPin);
-    if (!isValid) {
-      setPinDialog(prev => prev ? { ...prev, error: "❌ Yanlış PİN kodu! Əməliyyata icazə verilmədi." } : null);
-      return;
+
+    if (pinDialog.requireAdmin) {
+      const adminUsers = (state.users || []).filter(u => u.role === "ADMIN");
+      const isMasterAdmin = inputPin === "3333" || inputPin === "0000";
+      const isValidAdmin = adminUsers.some(u => u.pin === inputPin) || isMasterAdmin;
+
+      if (!isValidAdmin) {
+        setPinDialog(prev => prev ? { ...prev, error: "❌ Yanlış Admin şifrəsi! Bu bölməyə yalnız rəhbər daxil ola bilər." } : null);
+        return;
+      }
+    } else {
+      const isValid = (state.users || []).some(u => u.pin === inputPin) || 
+                      inputPin === "1234" || 
+                      inputPin === "1111" || 
+                      inputPin === "2222" || 
+                      inputPin === "3333" || 
+                      inputPin === "9999" ||
+                      (currentUser && currentUser.pin === inputPin);
+      if (!isValid) {
+        setPinDialog(prev => prev ? { ...prev, error: "❌ Yanlış PİN kodu! Əməliyyata icazə verilmədi." } : null);
+        return;
+      }
     }
 
     const callback = pinDialog.onSuccess;
@@ -2172,6 +2208,7 @@ export default function KozDonerPOS({ state, onUpdateState, onBackToHub, current
         <button
           onClick={() => {
             setSelectedTable(null);
+            setIsReportsUnlocked(false);
             setActiveTab("TABLES");
           }}
           className={`px-4 py-2 rounded-xl text-xs font-bold flex items-center space-x-2 transition-all cursor-pointer whitespace-nowrap ${
@@ -2186,6 +2223,7 @@ export default function KozDonerPOS({ state, onUpdateState, onBackToHub, current
 
         <button
           onClick={() => {
+            setIsReportsUnlocked(false);
             handleDirectOrder("TAKEAWAY");
           }}
           className={`px-4 py-2 rounded-xl text-xs font-bold flex items-center space-x-2 transition-all cursor-pointer whitespace-nowrap ${
@@ -2201,6 +2239,7 @@ export default function KozDonerPOS({ state, onUpdateState, onBackToHub, current
         <button
           onClick={() => {
             setSelectedTable(null);
+            setIsReportsUnlocked(false);
             setActiveTab("DELIVERIES");
           }}
           className={`px-4 py-2 rounded-xl text-xs font-bold flex items-center space-x-2 transition-all cursor-pointer whitespace-nowrap relative ${
@@ -2221,6 +2260,7 @@ export default function KozDonerPOS({ state, onUpdateState, onBackToHub, current
         <button
           onClick={() => {
             setSelectedTable(null);
+            setIsReportsUnlocked(false);
             setActiveTab("EXPENSES");
           }}
           className={`px-4 py-2 rounded-xl text-xs font-bold flex items-center space-x-2 transition-all cursor-pointer whitespace-nowrap ${
@@ -2236,6 +2276,7 @@ export default function KozDonerPOS({ state, onUpdateState, onBackToHub, current
         <button
           onClick={() => {
             setSelectedTable(null);
+            setIsReportsUnlocked(false);
             setActiveTab("STOCK");
           }}
           className={`px-4 py-2 rounded-xl text-xs font-bold flex items-center space-x-2 transition-all cursor-pointer whitespace-nowrap ${
@@ -2249,10 +2290,7 @@ export default function KozDonerPOS({ state, onUpdateState, onBackToHub, current
         </button>
 
         <button
-          onClick={() => {
-            setSelectedTable(null);
-            setActiveTab("REPORTS");
-          }}
+          onClick={handleOpenReports}
           className={`px-4 py-2 rounded-xl text-xs font-bold flex items-center space-x-2 transition-all cursor-pointer whitespace-nowrap ${
             activeTab === "REPORTS" 
               ? "bg-orange-600 text-white shadow-md shadow-orange-950/30" 
@@ -2261,11 +2299,15 @@ export default function KozDonerPOS({ state, onUpdateState, onBackToHub, current
         >
           <BarChart3 className="w-4 h-4" />
           <span>Hesabatlar</span>
+          {currentUser?.role !== "ADMIN" && !isReportsUnlocked && (
+            <Lock className="w-3.5 h-3.5 text-amber-400 ml-1" />
+          )}
         </button>
 
         <button
           onClick={() => {
             setSelectedTable(null);
+            setIsReportsUnlocked(false);
             setActiveTab("SETTINGS");
           }}
           className={`px-4 py-2 rounded-xl text-xs font-bold flex items-center space-x-2 transition-all cursor-pointer whitespace-nowrap ${
@@ -4456,13 +4498,35 @@ export default function KozDonerPOS({ state, onUpdateState, onBackToHub, current
           </div>
         )}
 
-        {/* VIEW 4: HESABATLAR & SATIŞ ANALİTİKASI (REPORTS PANEL) */}
+        {/* VIEW 4: HESABATLAR & SATIŞ ANALİTİKASI (REPORTS PANEL - ADMIN KODU İLƏ QORUNUR) */}
         {activeTab === "REPORTS" && (
-          <DonerReports
-            state={state}
-            onUpdateState={onUpdateState}
-            onOpenReceipt={(receiptProps) => handleOpenPrint("CUSTOMER", receiptProps)}
-          />
+          (currentUser?.role === "ADMIN" || isReportsUnlocked) ? (
+            <DonerReports
+              state={state}
+              onUpdateState={onUpdateState}
+              onOpenReceipt={(receiptProps) => handleOpenPrint("CUSTOMER", receiptProps)}
+            />
+          ) : (
+            <div className="flex-1 flex flex-col items-center justify-center p-8 text-center space-y-4 max-w-md mx-auto my-auto animate-fadeIn">
+              <div className="w-16 h-16 rounded-3xl bg-amber-500/10 border border-amber-500/20 flex items-center justify-center text-amber-400 shadow-xl shadow-amber-950/20">
+                <Lock className="w-8 h-8" />
+              </div>
+              <div className="space-y-1.5">
+                <h3 className="text-lg font-extrabold text-white font-display">Hesabatlar Bölməsi Qapalıdır</h3>
+                <p className="text-xs text-slate-400 leading-relaxed">
+                  Maliyyə göstəriciləri, gəlir və satış hesabatları məxfidir. Kassir girişi məhdudlaşdırılıb. Hesabatlara baxmaq üçün <strong>Admin PİN şifrəsini</strong> daxil edin.
+                </p>
+              </div>
+              <button
+                type="button"
+                onClick={handleOpenReports}
+                className="px-6 py-3 bg-gradient-to-r from-orange-600 to-amber-600 hover:from-orange-500 hover:to-amber-500 text-white font-bold rounded-xl text-xs shadow-lg shadow-orange-950/40 transition-all cursor-pointer flex items-center space-x-2"
+              >
+                <Lock className="w-4 h-4" />
+                <span>Admin Şifrəsini Daxil Et</span>
+              </button>
+            </div>
+          )
         )}
 
         {/* VIEW 5: TƏNZİMLƏMƏLƏR (SETTINGS PANEL) */}
