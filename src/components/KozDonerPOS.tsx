@@ -2482,7 +2482,7 @@ export default function KozDonerPOS({ state, onUpdateState, onBackToHub, current
 
         {/* VIEW 2: SİFARİŞ EKRANI (ORDER WINDOW / DIRECT ORDER) */}
         {(activeTab === "ORDER_WINDOW" || activeTab === "DIRECT_ORDER") && (
-          <div className="flex-1 flex overflow-hidden flex-col lg:flex-row">
+          <div className="flex-1 flex overflow-hidden flex-col md:flex-row">
             
             {/* Left Column: Menu Items list */}
             <div className="flex-1 flex flex-col overflow-hidden border-r border-slate-850 bg-slate-950">
@@ -2623,10 +2623,10 @@ export default function KozDonerPOS({ state, onUpdateState, onBackToHub, current
             </div>
 
             {/* Right Column: Active Bill Sidebar */}
-            <div className="w-full lg:w-[400px] bg-slate-900 border-t lg:border-t-0 border-l border-slate-850 flex flex-col overflow-hidden">
+            <div className="w-full md:w-[380px] lg:w-[420px] bg-slate-900 border-t md:border-t-0 border-l border-slate-850 flex flex-col overflow-hidden shrink-0">
               
               {/* Header Details */}
-              <div className="p-4 border-b border-slate-850 bg-slate-950">
+              <div className="p-4 border-b border-slate-850 bg-slate-950 shrink-0">
                 <div className="flex items-center justify-between">
                   <div>
                     <span className="text-[10px] text-slate-400 font-bold uppercase">Cari Sifariş</span>
@@ -2651,7 +2651,7 @@ export default function KozDonerPOS({ state, onUpdateState, onBackToHub, current
 
               {/* Delivery info subform if DELIVERY is active */}
               {activeTab === "DIRECT_ORDER" && directOrderType === "DELIVERY" && (
-                <div className="p-4 bg-slate-950 border-b border-slate-850 space-y-3">
+                <div className="p-4 bg-slate-950 border-b border-slate-850 space-y-3 shrink-0">
                   <span className="text-[10px] text-orange-500 font-bold uppercase tracking-wider block">Çatdırılma Melumatları</span>
                   
                   <div className="space-y-2">
@@ -2705,8 +2705,117 @@ export default function KozDonerPOS({ state, onUpdateState, onBackToHub, current
                 </div>
               )}
 
-              {/* Cart Item list */}
+              {/* ⚡ YUXARIDA BƏRKİDİLMİŞ ÖDƏNİŞ VƏ ƏMƏLİYYAT PANELİ (Heç bir sürüşdürmə tələb olunmur!) */}
+              <div className="bg-slate-950 p-4 border-b border-slate-850 space-y-3 shrink-0 shadow-md">
+                
+                {/* Total amount view */}
+                <div className="flex justify-between items-center text-white pb-1">
+                  <div>
+                    <span className="text-[10px] text-slate-400 font-bold uppercase block">Cəm məbləğ:</span>
+                    <span className="text-[10px] text-slate-500 font-medium">({currentCart.length} növ məhsul)</span>
+                  </div>
+                  <span className="font-black text-2xl text-orange-500 tracking-tight font-display">
+                    {cartSubtotal.toFixed(2)} ₼
+                  </span>
+                </div>
+
+                {/* ƏSAS DÜYMƏ: Ödənişi Tamamla (Birbaşa ən yuxarıda!) */}
+                <button
+                  type="button"
+                  onClick={selectedTable ? handlePayTableOrder : handlePayDirectOrder}
+                  disabled={currentCart.length === 0}
+                  className={`w-full py-3.5 px-4 rounded-xl text-sm font-black text-white transition-all flex items-center justify-center space-x-2 shadow-lg cursor-pointer ${
+                    currentCart.length > 0
+                      ? activeTab === "DIRECT_ORDER" && directOrderType === "DELIVERY"
+                        ? "bg-gradient-to-r from-orange-600 to-amber-600 hover:from-orange-500 hover:to-amber-500 hover:scale-[1.01] shadow-orange-950/40"
+                        : "bg-emerald-600 hover:bg-emerald-500 hover:scale-[1.01] shadow-emerald-950/40"
+                      : "bg-slate-800 text-slate-500 cursor-not-allowed shadow-none"
+                  }`}
+                >
+                  {activeTab === "DIRECT_ORDER" && directOrderType === "DELIVERY" ? (
+                    <>
+                      <Truck className="w-5 h-5" />
+                      <span>🛵 Kuryerə Göndər (Təsdiq Gözləməyə Al)</span>
+                    </>
+                  ) : (
+                    <>
+                      <CheckCircle className="w-5 h-5" />
+                      <span>Ödənişi Tamamla & Müştəri Qəbzi</span>
+                    </>
+                  )}
+                </button>
+
+                {/* Kitchen Send Button (Only active when there are unsent items!) */}
+                <button
+                  type="button"
+                  onClick={handleSendToKitchen}
+                  disabled={!hasUnsentKitchenItems || currentCart.length === 0}
+                  className={`w-full py-2 px-3 rounded-xl text-xs font-bold transition-all flex items-center justify-center space-x-1.5 border ${
+                    hasUnsentKitchenItems && currentCart.length > 0
+                      ? "bg-amber-500/20 hover:bg-amber-500/30 text-amber-300 border-amber-500/40 cursor-pointer shadow-md shadow-amber-950/30"
+                      : "bg-slate-900 text-slate-500 border-slate-850 cursor-not-allowed opacity-60"
+                  }`}
+                >
+                  <ChefHat className="w-4 h-4 text-amber-400" />
+                  <span>
+                    {hasUnsentKitchenItems && currentCart.length > 0
+                      ? `👨‍🍳 Mətbəxə Göndər (${unsentCount} yeni məhsul)`
+                      : "Mətbəxə Göndərilib ✔️"}
+                  </span>
+                </button>
+
+                {/* Payment Method selector */}
+                <PaymentSelector
+                  value={paymentMethod}
+                  note={paymentNote}
+                  onChange={(method, note) => {
+                    setPaymentMethod(method);
+                    setPaymentNote(note || "");
+                  }}
+                  theme="dark"
+                />
+
+                {/* Custom Date & Time for sale (Retroactive sale entry - compact) */}
+                <div className="bg-slate-900/60 p-2 rounded-xl border border-slate-850 text-xs">
+                  <div className="flex items-center justify-between">
+                    <span className="text-[10px] text-slate-400 font-bold uppercase flex items-center space-x-1">
+                      <Clock className="w-3 h-3 text-orange-400" />
+                      <span>📅 Sifariş Tarixi & Vaxtı</span>
+                    </span>
+                    <button
+                      type="button"
+                      onClick={() => setShowCustomOrderTime(prev => !prev)}
+                      className="text-[10px] text-orange-400 hover:underline font-semibold cursor-pointer"
+                    >
+                      {showCustomOrderTime ? "Cari vaxta qaytar" : (orderCustomDateTime ? "Dəyişilib 🕒" : "Tarixi dəyiş")}
+                    </button>
+                  </div>
+                  {showCustomOrderTime && (
+                    <div className="space-y-1 mt-1.5 animate-fadeIn">
+                      <input
+                        type="datetime-local"
+                        value={orderCustomDateTime}
+                        onChange={(e) => setOrderCustomDateTime(e.target.value)}
+                        className="w-full bg-slate-950 text-white font-mono text-xs border border-slate-800 rounded-lg p-1.5 focus:outline-none focus:border-orange-500"
+                      />
+                      <span className="text-[9px] text-slate-500 block leading-tight">
+                        * Boşdursa cari an qeyd olunur. Keçmiş tarix yazıldıqda PİN kodu ilə təsdiq tələb olunur.
+                      </span>
+                    </div>
+                  )}
+                </div>
+
+              </div>
+
+              {/* Cart Item list (Yuxarıdakı panelin altında sərbəst sürüşür) */}
               <div className="flex-1 overflow-y-auto p-4 space-y-3">
+                <div className="text-[11px] font-bold text-slate-400 uppercase tracking-wider flex items-center justify-between pb-1 border-b border-slate-850/60">
+                  <span>Sifariş Məhsulları ({currentCart.length})</span>
+                  {currentCart.length > 0 && (
+                    <span className="text-[10px] text-orange-400 font-semibold">Tərkib və say düzəlişi</span>
+                  )}
+                </div>
+
                 {currentCart.map((item, index) => (
                   <div 
                     key={`${item.productId}-${index}`}
@@ -2775,110 +2884,6 @@ export default function KozDonerPOS({ state, onUpdateState, onBackToHub, current
                     <p className="text-xs">Sifariş boşdur. Sol tərəfdən məhsul seçin.</p>
                   </div>
                 )}
-              </div>
-
-              {/* Checkout Block & Payment configuration */}
-              <div className="bg-slate-950 p-4 border-t border-slate-850 space-y-4">
-                
-                {/* Total amount view */}
-                <div className="flex justify-between items-center text-white border-b border-slate-850 pb-3">
-                  <span className="text-xs text-slate-400 font-bold uppercase">Cəm məbləğ:</span>
-                  <span className="font-black text-xl text-orange-500">{cartSubtotal.toFixed(2)} ₼</span>
-                </div>
-
-                {/* Payment Method selector */}
-                <PaymentSelector
-                  value={paymentMethod}
-                  note={paymentNote}
-                  onChange={(method, note) => {
-                    setPaymentMethod(method);
-                    setPaymentNote(note || "");
-                  }}
-                  theme="dark"
-                />
-
-                {/* Custom Date & Time for sale (Retroactive sale entry) */}
-                <div className="bg-slate-900/70 p-2.5 rounded-xl border border-slate-850 space-y-2 text-xs">
-                  <div className="flex items-center justify-between">
-                    <span className="text-[10px] text-slate-400 font-bold uppercase flex items-center space-x-1">
-                      <Clock className="w-3 h-3 text-orange-400" />
-                      <span>📅 Sifariş Tarixi & Vaxtı</span>
-                    </span>
-                    <button
-                      type="button"
-                      onClick={() => setShowCustomOrderTime(prev => !prev)}
-                      className="text-[10px] text-orange-400 hover:underline font-semibold cursor-pointer"
-                    >
-                      {showCustomOrderTime ? "Cari vaxta qaytar" : (orderCustomDateTime ? "Dəyişilib 🕒" : "Tarixi dəyiş")}
-                    </button>
-                  </div>
-                  {showCustomOrderTime && (
-                    <div className="space-y-1 animate-fadeIn">
-                      <input
-                        type="datetime-local"
-                        value={orderCustomDateTime}
-                        onChange={(e) => setOrderCustomDateTime(e.target.value)}
-                        className="w-full bg-slate-950 text-white font-mono text-xs border border-slate-800 rounded-lg p-2 focus:outline-none focus:border-orange-500"
-                      />
-                      <span className="text-[9px] text-slate-500 block leading-tight">
-                        * Boşdursa cari an qeyd olunur. Keçmiş tarix yazıldıqda PİN kodu ilə təsdiq tələb olunur.
-                      </span>
-                    </div>
-                  )}
-                </div>
-
-                {/* Operations buttons */}
-                <div className="space-y-2 pt-2">
-                  
-                  {/* Kitchen Send Button (Only active when there are unsent items!) */}
-                  <div className="flex gap-2">
-                    <button
-                      type="button"
-                      onClick={handleSendToKitchen}
-                      disabled={!hasUnsentKitchenItems || currentCart.length === 0}
-                      className={`flex-1 py-2.5 px-3 rounded-xl text-xs font-bold transition-all flex items-center justify-center space-x-1.5 border ${
-                        hasUnsentKitchenItems && currentCart.length > 0
-                          ? "bg-amber-500/20 hover:bg-amber-500/30 text-amber-300 border-amber-500/40 cursor-pointer shadow-md shadow-amber-950/30"
-                          : "bg-slate-900 text-slate-500 border-slate-850 cursor-not-allowed opacity-60"
-                      }`}
-                    >
-                      <ChefHat className="w-4 h-4 text-amber-400" />
-                      <span>
-                        {hasUnsentKitchenItems && currentCart.length > 0
-                          ? `👨‍🍳 Mətbəxə Göndər (${unsentCount} yeni)`
-                          : "Mətbəxə Göndərilib ✔️"}
-                      </span>
-                    </button>
-                  </div>
-
-                  {/* Ultimate Payment / Send to Delivery Confirmation */}
-                  <button
-                    type="button"
-                    onClick={selectedTable ? handlePayTableOrder : handlePayDirectOrder}
-                    disabled={currentCart.length === 0}
-                    className={`w-full py-3 px-4 rounded-xl text-xs font-extrabold text-white transition-all flex items-center justify-center space-x-2 shadow-lg ${
-                      currentCart.length > 0
-                        ? activeTab === "DIRECT_ORDER" && directOrderType === "DELIVERY"
-                          ? "bg-gradient-to-r from-orange-600 to-amber-600 hover:from-orange-500 hover:to-amber-500 hover:scale-[1.01] shadow-orange-950/30 cursor-pointer"
-                          : "bg-orange-600 hover:bg-orange-500 hover:scale-[1.01] shadow-orange-950/20 cursor-pointer"
-                        : "bg-slate-800 text-slate-500 cursor-not-allowed shadow-none"
-                    }`}
-                  >
-                    {activeTab === "DIRECT_ORDER" && directOrderType === "DELIVERY" ? (
-                      <>
-                        <Truck className="w-4 h-4" />
-                        <span>🛵 Kuryerə Göndər (Təsdiq Gözləməyə Al)</span>
-                      </>
-                    ) : (
-                      <>
-                        <CheckCircle className="w-4 h-4" />
-                        <span>Ödənişi Tamamla & Müştəri Qəbzi</span>
-                      </>
-                    )}
-                  </button>
-
-                </div>
-
               </div>
 
             </div>
